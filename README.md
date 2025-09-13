@@ -9,7 +9,7 @@ A web application for completing psychological assessment questionnaires in a di
 ---
 
 <p align="center">
-  <a href="https://github.com/Uspectacle/PsycoQuizz" target="_blank">
+  <a href="https://uspectacle.github.io/PsycoQuizz" target="_blank">
     <strong>✨ Click here to access the PsycoQuizz app ✨</strong>
   </a>
 </p>
