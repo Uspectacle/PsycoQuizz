@@ -1,0 +1,128 @@
+{
+  "documentUrl": "PSI-II.pdf",
+  "id": "psi",
+  "name": "PSI-II",
+  "elements": [
+    {
+      "type": "title",
+      "content": "PSI-II"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous retrouverez ci-dessous une série d'énoncés qui peuvent se rapporter aux inquiétudes.\nEn vous référant aux moments où vous vous inquiétez, veuillez indiquer jusqu'à quel point les énoncés suivants vous semblent vrais."
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "Pas du tout vrai",
+        "Un peu vrai",
+        "Assez vrai",
+        "Très vrai",
+        "Tout à fait"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Si je ne m'inquiétais pas, je serais insouciant(e) et irresponsable."
+        },
+        {
+          "type": "question",
+          "text": "Si je m'inquiète, je serai moins ébranlé(e) lorsque des événements imprévus se produiront."
+        },
+        {
+          "type": "question",
+          "text": "Je m'inquiète dans le but de savoir quoi faire."
+        },
+        {
+          "type": "question",
+          "text": "Si je m'inquiète à l'avance, je serai moins déçu(e) si quelque chose de grave se produit."
+        },
+        {
+          "type": "question",
+          "text": "Le fait de m'inquiéter m'aide à planifier mes actions pour résoudre un problème."
+        },
+        {
+          "type": "question",
+          "text": "Le simple fait de m'inquiéter peut empêcher les malheurs d'arriver."
+        },
+        {
+          "type": "question",
+          "text": "Si je ne m'inquiétais pas, cela ferait de moi une personne négligente."
+        },
+        {
+          "type": "question",
+          "text": "C'est en m'inquiétant que je finis par entreprendre le travail que j'ai à faire."
+        },
+        {
+          "type": "question",
+          "text": "Je m'inquiète parce que je pense que cela peut m'aider à trouver une solution à mon problème."
+        },
+        {
+          "type": "question",
+          "text": "Le fait de m'inquiéter prouve que je suis une personne qui voit à ses affaires."
+        },
+        {
+          "type": "question",
+          "text": "Trop penser à des choses positives peut les empêcher de se produire."
+        },
+        {
+          "type": "question",
+          "text": "Le fait de m'inquiéter confirme que je suis une personne prévoyante."
+        },
+        {
+          "type": "question",
+          "text": "Si un malheur arrive, je me sentirai moins responsable si je m'en suis inquiété(e) auparavant."
+        },
+        {
+          "type": "question",
+          "text": "En m'inquiétant, je peux trouver une meilleure façon de faire."
+        },
+        {
+          "type": "question",
+          "text": "L'inquiétude me stimule et me rend plus efficace."
+        },
+        {
+          "type": "question",
+          "text": "Le fait de m'inquiéter m'incite à passer à l'action."
+        },
+        {
+          "type": "question",
+          "text": "Le simple fait de m'inquiéter diminue le risque que quelque chose de grave arrive."
+        },
+        {
+          "type": "question",
+          "text": "En m'inquiétant, je fais certaines choses que je ne me déciderais pas à faire autrement."
+        },
+        {
+          "type": "question",
+          "text": "Le fait de m'inquiéter me motive à faire les choses que je dois faire."
+        },
+        {
+          "type": "question",
+          "text": "Mes inquiétudes à elles seules peuvent diminuer les risques de danger."
+        },
+        {
+          "type": "question",
+          "text": "En m'inquiétant, j'augmente mes chances de trouver la meilleure solution."
+        },
+        {
+          "type": "question",
+          "text": "Le fait de m'inquiéter me permettra de me sentir moins coupable si quelque chose de grave se produit."
+        },
+        {
+          "type": "question",
+          "text": "Si je m'inquiète, je serai moins triste lorsqu'un événement négatif se produira."
+        },
+        {
+          "type": "question",
+          "text": "En ne s'inquiétant pas, on peut attirer les malheurs."
+        },
+        {
+          "type": "question",
+          "text": "Le fait de m'inquiéter démontre que je suis une bonne personne."
+        }
+      ]
+    }
+  ]
+}

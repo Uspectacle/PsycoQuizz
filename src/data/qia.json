@@ -1,0 +1,129 @@
+{
+  "documentUrl": "QIA.pdf",
+  "id": "qia",
+  "name": "QIA",
+  "elements": [
+    {
+      "type": "title",
+      "content": "QIA"
+    },
+    {
+      "type": "paragraph",
+      "content": "1) Quels sont les sujets à propos desquels vous vous inquiétez le plus souvent?"
+    },
+    {
+      "type": "input",
+      "label": "a)"
+    },
+    {
+      "type": "input",
+      "label": "b)"
+    },
+    {
+      "type": "input",
+      "label": "c)"
+    },
+    {
+      "type": "input",
+      "label": "d)"
+    },
+    {
+      "type": "input",
+      "label": "e)"
+    },
+    {
+      "type": "input",
+      "label": "f)"
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": ["0", "1", "2", "3", "4", "5", "6", "7", "8"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "2) Est-ce que vos inquiétudes vous semblent excessives ou exagérées? \n0 - Aucunement excessives \n4 - Modérément excessives \n8 - Complétement excessives"
+        },
+        {
+          "type": "question",
+          "text": "3) Durant les derniers six mois, combien de jours avez-vous été troublé-e par des inquiétudes excessives? \n0 - Jamais \n4 - 1 jour sur 2 \n8 - À tous les jours"
+        },
+        {
+          "type": "question",
+          "text": "4) Est-ce que vous avez de la difficulté à contrôler vos inquiétudes? Par exemple, lorsque vous commencez à vous inquiéter à propos de quelque chose, avez-vous de la difficulté à vous arrêter? \n0 - Aucune difficulté \n4 - Difficulté modérée \n8 - Difficulté extrême"
+        }
+      ]
+    },
+
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "0 - Aucunement",
+        "1 - Peu",
+        "2 - Peu",
+        "3 - Modérément",
+        "4 - Modérément",
+        "5 - Modérément",
+        "6 - Sévèrement",
+        "7 - Sévèrement",
+        "8 - Trés sévèrement"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "Durant les derniers six mois, avez-vous souvent été troublé-e par une ou l'autre des sensations suivantes lorsque vous étiez inquiet-ète ou anxieux-se?"
+        },
+        {
+          "type": "question",
+          "text": "Agité-e, surexcité-e ou avoir les nerfs à vif"
+        },
+        {
+          "type": "question",
+          "text": "Facilement fatigué-e"
+        },
+        {
+          "type": "question",
+          "text": "Difficulté à se concentrer ou blanc de mémoire"
+        },
+        {
+          "type": "question",
+          "text": "Irritabilité"
+        },
+        {
+          "type": "question",
+          "text": "Tensions musculaires"
+        },
+        {
+          "type": "question",
+          "text": "Problèmes de sommeil (difficulté à tomber ou rester endormi-e ou sommeil agité et insatisfaisant)"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "0 - Aucunement",
+        "1 - Peu",
+        "2 - Peu",
+        "3 - Modérément",
+        "4 - Modérément",
+        "5 - Modérément",
+        "6 - Sévèrement",
+        "7 - Sévèrement",
+        "8 - Trés sévèrement"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "6) À quel point est-ce que l'anxiété ou l'inquiétude interfère avec votre vie, c'est-à-dire votre travail, activités sociales, famille, etc? (Aucunement = 0, Modérément = 4, Très sévèrement = 8)"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Instructions pour la cotation:\nPour calculer le score total au QIA, faire la somme des réponses de tous les items (sauf les réponses à l'item 1).\n\nPour rencontrer les critères du TAG pour le QIA, la personne doit rapporter au moins un thème d'inquiétude, indiquer un score de '4' ou plus aux items 2, 3, 4 et 6, en plus d'indiquer un score de '4' ou plus sur au moins 3 des 6 symptômes somatiques (item 5).\n\nTrois autres catégories de critères peuvent être rencontrées:\n-Critère cognitif (score de '4' ou plus aux items 2, 3 et 4)\n-Critère somatique (score de '4' ou plus sur au moins 3 des 6 symptômes somatiques de l'item 5)\n-Aucun critère (ne rencontre aucun des critères précédents)"
+    }
+  ]
+}

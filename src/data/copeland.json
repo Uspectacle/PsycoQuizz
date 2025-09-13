@@ -1,0 +1,218 @@
+{
+  "documentUrl": "COPELAND_TDAH_adulte.pdf",
+  "id": "copeland",
+  "name": "COPELAND",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Questionnaire de Copeland - TDAH Adulte"
+    },
+    {
+      "type": "paragraph",
+      "content": "Évaluation des symptômes TDAH chez l'adulte selon les dimensions d'inattention, impulsivité et niveaux d'activité"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ce test devrait être complété à la fois par la personne susceptible d'avoir un TDA et par une autre personne qui la connaît bien.\nIndiquez à quel degré (de 0 à 3) le comportement décrit s'applique à vous ou à la personne que vous évaluez"
+    },
+    {
+      "type": "quizz",
+      "title": "I. Inattention/Distractibilité",
+      "scale": ["Pas du tout", "Un peu", "Passablement", "Beaucoup"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Concentration limitée dans le temps, surtout pour des activités de routine"
+        },
+        {
+          "type": "question",
+          "text": "Difficultés à compléter les tâches entreprises"
+        },
+        {
+          "type": "question",
+          "text": "Rêve ou rêvasse les yeux ouverts"
+        },
+        {
+          "type": "question",
+          "text": "Facilement distrait"
+        },
+        {
+          "type": "question",
+          "text": "Surnommé « lunatique » ou « rêveur »"
+        },
+        {
+          "type": "question",
+          "text": "Beaucoup de projets entrepris, aucun complété"
+        },
+        {
+          "type": "question",
+          "text": "Très enthousiasmé au départ mais vite déçu ou fatigué"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "II. Impulsivité",
+      "scale": ["Pas du tout", "Un peu", "Passablement", "Beaucoup"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Excitabilité"
+        },
+        {
+          "type": "question",
+          "text": "Faible taux de tolérance à la frustration"
+        },
+        {
+          "type": "question",
+          "text": "Ne réfléchit pas avant d'agir"
+        },
+        {
+          "type": "question",
+          "text": "Désorganisé"
+        },
+        {
+          "type": "question",
+          "text": "Piètre capacité de planification"
+        },
+        {
+          "type": "question",
+          "text": "Passe constamment d'une activité à une autre"
+        },
+        {
+          "type": "question",
+          "text": "Dysfonctionnel en groupe (où il faut être patient et attendre son tour)"
+        },
+        {
+          "type": "question",
+          "text": "Besoin d'être supervisé"
+        },
+        {
+          "type": "question",
+          "text": "Constamment réprimandé pour avoir oublié ou mal fait"
+        },
+        {
+          "type": "question",
+          "text": "Interrompt fréquemment les conversations; parle quand ce n'est pas son tour"
+        }
+      ]
+    },
+    {
+      "type": "subtitle",
+      "content": "III. Niveaux d'activité"
+    },
+    {
+      "type": "quizz",
+      "title": "III.A. Suractivité/Hyperactivité",
+      "scale": ["Pas du tout", "Un peu", "Passablement", "Beaucoup"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Agité, la « bougeotte » perpétuelle"
+        },
+        {
+          "type": "question",
+          "text": "Besoin de peu de sommeil"
+        },
+        {
+          "type": "question",
+          "text": "Volubile à l'excès"
+        },
+        {
+          "type": "question",
+          "text": "Piètre qualité d'écoute"
+        },
+        {
+          "type": "question",
+          "text": "Agitation motrice durant le sommeil; draps éparpillés, mouvements continuels"
+        },
+        {
+          "type": "question",
+          "text": "N'aime pas les situations où il faut être à l'écoute et se tenir tranquille (église, conférence, etc.)"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "III.B. Sous-activité",
+      "scale": ["Pas du tout", "Un peu", "Passablement", "Beaucoup"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Léthargique"
+        },
+        {
+          "type": "question",
+          "text": "Rêveur éveillé, lunatique"
+        },
+        {
+          "type": "question",
+          "text": "N'arrive pas à compléter ses tâches"
+        },
+        {
+          "type": "question",
+          "text": "Inattention, distraction"
+        },
+        {
+          "type": "question",
+          "text": "Manque de leadership, peu débrouillard"
+        },
+        {
+          "type": "question",
+          "text": "Difficulté à remplir ses obligations"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "IV. Sous-réalisation/désorganisation/troubles d'apprentissage",
+      "scale": ["Pas du tout", "Un peu", "Passablement", "Beaucoup"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Piètres réalisations en regard de ses capacités"
+        },
+        {
+          "type": "question",
+          "text": "Fréquents changements d'emploi"
+        },
+        {
+          "type": "question",
+          "text": "Objets égarés: clés, porte-feuille, listes (d'épicerie), effets personnels"
+        },
+        {
+          "type": "question",
+          "text": "Problèmes de mémoire auditive (difficultés à retenir les noms)"
+        },
+        {
+          "type": "question",
+          "text": "Troubles d'apprentissage"
+        },
+        {
+          "type": "question",
+          "text": "Écriture manuscrite illisible"
+        },
+        {
+          "type": "question",
+          "text": "Travail et appartement désordonnés"
+        },
+        {
+          "type": "question",
+          "text": "Obligations professionnelles souvent accomplies à la hâte et de façon insatisfaisante"
+        },
+        {
+          "type": "question",
+          "text": "Travail précipité"
+        },
+        {
+          "type": "question",
+          "text": "Travaille trop lentement"
+        },
+        {
+          "type": "question",
+          "text": "Procrastination: factures ou impôts impayés, ou remis à la dernière minute"
+        }
+      ]
+    }
+  ]
+}

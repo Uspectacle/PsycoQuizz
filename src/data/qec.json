@@ -1,0 +1,100 @@
+{
+  "documentUrl": "QEC.pdf",
+  "id": "qec",
+  "name": "QEC",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Questionnaire d'Évitement Cognitif"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les gens réagissent de différentes façons à certains types de pensées.\nVeuillez exprimer jusqu'à quel point chacun des énoncés suivants correspond à votre façon de réagir à certaines pensées."
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "Pas du tout correspondant",
+        "Un peu correspondant",
+        "Assez correspondant",
+        "Très correspondant",
+        "Tout à fait correspondant"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Il y a des choses auxquelles je préfère ne pas penser."
+        },
+        {
+          "type": "question",
+          "text": "J'évite certaines situations qui m'amènent à porter attention à des choses auxquelles je ne veux pas penser."
+        },
+        {
+          "type": "question",
+          "text": "Je remplace les images menaçantes que j'ai en tête par un discours intérieur."
+        },
+        {
+          "type": "question",
+          "text": "Je pense à des choses qui me concernent comme si cela arrivait à quelqu'un d'autre que moi."
+        },
+        {
+          "type": "question",
+          "text": "J'ai des pensées que j'essaie d'éviter."
+        },
+        {
+          "type": "question",
+          "text": "J'essaie de ne pas penser aux aspects les plus dérangeants de certaines situations pour ne pas avoir trop peur."
+        },
+        {
+          "type": "question",
+          "text": "J'évite parfois des objets qui peuvent déclencher des idées dérangeantes."
+        },
+        {
+          "type": "question",
+          "text": "Je me distrais pour éviter de penser à certains sujets troublants."
+        },
+        {
+          "type": "question",
+          "text": "J'évite des gens qui me font penser à des choses auxquelles je ne veux pas réfléchir."
+        },
+        {
+          "type": "question",
+          "text": "Je fais souvent des choses pour me distraire de mes pensées."
+        },
+        {
+          "type": "question",
+          "text": "Je pense à des détails inutiles pour ne pas penser aux sujets importants qui m'inquiètent."
+        },
+        {
+          "type": "question",
+          "text": "Parfois, je me plonge dans une activité pour ne pas penser à certaines choses."
+        },
+        {
+          "type": "question",
+          "text": "Pour éviter de penser aux sujets qui me dérangent, je m'efforce de penser à autre chose."
+        },
+        {
+          "type": "question",
+          "text": "Il y a des choses auxquelles j'essaie de ne pas penser."
+        },
+        {
+          "type": "question",
+          "text": "Je maintiens un discours intérieur pour éviter de voir des scénarios (une suite d'images) qui me font peur."
+        },
+        {
+          "type": "question",
+          "text": "Parfois, j'évite des endroits qui me font réfléchir à des choses auxquelles je préférerais ne pas penser."
+        },
+        {
+          "type": "question",
+          "text": "Je pense aux événements passés pour ne pas penser aux événements futurs insécurisants."
+        },
+        {
+          "type": "question",
+          "text": "J'évite de poser des gestes qui me rappellent des choses auxquelles je ne veux pas penser."
+        }
+      ]
+    }
+  ]
+}

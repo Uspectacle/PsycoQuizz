@@ -1,0 +1,76 @@
+{
+  "documentUrl": "QAP.pdf",
+  "id": "qap",
+  "name": "QAP",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Questionnaire d'Attitude face aux Problèmes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les gens peuvent réagir de différentes façons lorsqu'ils font face à des problèmes de la vie quotidienne (ex: problèmes de santé, disputes, manques de temps, etc.).\nVeuillez exprimer jusqu'à quel point chacun des énoncés suivants correspond à votre façon de réagir ou de penser lorsque vous êtes confronté(e) à un problème."
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "Pas du tout correspondant",
+        "Un peu correspondant",
+        "Assez correspondant",
+        "Très correspondant",
+        "Extrêmement correspondant"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Je perçois les problèmes comme étant menaçant pour mon bien-être."
+        },
+        {
+          "type": "question",
+          "text": "Je doute souvent de mes capacités à résoudre les problèmes."
+        },
+        {
+          "type": "question",
+          "text": "Souvent, avant même d'avoir essayé de trouver une solution, je me dis qu'il est difficile de résoudre un problème."
+        },
+        {
+          "type": "question",
+          "text": "Les problèmes qui m'arrivent me semblent souvent insurmontables."
+        },
+        {
+          "type": "question",
+          "text": "Lorsque je tente de résoudre un problème, je remets souvent en question mes habiletés."
+        },
+        {
+          "type": "question",
+          "text": "Souvent, j'ai l'impression que les problèmes qui m'arrivent ne peuvent pas être résolus."
+        },
+        {
+          "type": "question",
+          "text": "Même si j'arrive à voir certaines solutions à mes problèmes, je doute qu'ils pourraient se régler facilement."
+        },
+        {
+          "type": "question",
+          "text": "J'ai tendance à voir les problèmes comme un danger."
+        },
+        {
+          "type": "question",
+          "text": "Ma première réaction devant un problème est de remettre en question mes habiletés."
+        },
+        {
+          "type": "question",
+          "text": "Je perçois souvent mes problèmes comme étant plus gros qu'ils le sont en réalité."
+        },
+        {
+          "type": "question",
+          "text": "Même si j'ai regardé un problème sous tous les angles possibles, je me demande encore si la solution que j'ai retenue va être efficace."
+        },
+        {
+          "type": "question",
+          "text": "Je considère les problèmes comme des obstacles qui perturbent mon fonctionnement."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "documentUrl": "WURS.docx",
+  "id": "wurs",
+  "name": "WURS",
+  "elements": [
+    {
+      "type": "title",
+      "content": "WURS (Wender Utah Rating Scale)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Échelle rétrospective d'évaluation des symptômes TDAH dans l'enfance"
+    },
+    {
+      "type": "quizz",
+      "title": "Comme enfant, j'étais (ou j'avais)...",
+      "scale": [
+        "Pas du tout ou très légèrement",
+        "Légèrement",
+        "Modérément",
+        "Assez",
+        "Beaucoup"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Actif(ve), agité(e), toujours à courir"
+        },
+        {
+          "type": "question",
+          "text": "Peur des choses"
+        },
+        {
+          "type": "question",
+          "text": "Des problèmes de concentration, facilement distrait(e)"
+        },
+        {
+          "type": "question",
+          "text": "Anxieux(se), se faisant du souci"
+        },
+        {
+          "type": "question",
+          "text": "Nerveux(se), ne tenant pas en place"
+        },
+        {
+          "type": "question",
+          "text": "Inattentif(ve), rêveur(se)"
+        },
+        {
+          "type": "question",
+          "text": "Facilement en colère, « soupe au lait »"
+        },
+        {
+          "type": "question",
+          "text": "Timide, sensible"
+        },
+        {
+          "type": "question",
+          "text": "Des éclats d'humeur, des accès de colère"
+        },
+        {
+          "type": "question",
+          "text": "Des difficultés à me tenir aux choses, à mener mes projets jusqu'à la fin, à finir les choses commencées"
+        },
+        {
+          "type": "question",
+          "text": "Têtu(e), obstiné(e)"
+        },
+        {
+          "type": "question",
+          "text": "Triste ou cafardeux(se), déprimé(e), malheureux(se)"
+        },
+        {
+          "type": "question",
+          "text": "Imprudent(e), casse-cou, faisant les quatre cents coups"
+        },
+        {
+          "type": "question",
+          "text": "Ne prenant pas plaisir à faire les choses, insatisfait(e) de la vie"
+        },
+        {
+          "type": "question",
+          "text": "Désobéissant(e) à mes parents, rebelle, effronté(e)"
+        },
+        {
+          "type": "question",
+          "text": "Une mauvaise opinion de moi-même"
+        },
+        {
+          "type": "question",
+          "text": "Irritable"
+        },
+        {
+          "type": "question",
+          "text": "Sociable, amicale, plaisir à la compagnie des autres"
+        },
+        {
+          "type": "question",
+          "text": "Négligent(e), désordonné(e)"
+        },
+        {
+          "type": "question",
+          "text": "D'humeur changeante, avec des hauts et des bas"
+        },
+        {
+          "type": "question",
+          "text": "En colère"
+        },
+        {
+          "type": "question",
+          "text": "Des amis, populaire"
+        },
+        {
+          "type": "question",
+          "text": "Bien organisé(e), ordonné(e), soigné(e)"
+        },
+        {
+          "type": "question",
+          "text": "Impulsif(ve), agissant sans réfléchir"
+        },
+        {
+          "type": "question",
+          "text": "Tendance à être immature"
+        },
+        {
+          "type": "question",
+          "text": "Culpabilisé(e), plein(e) de regrets"
+        },
+        {
+          "type": "question",
+          "text": "Une perte du contrôle de moi-même"
+        },
+        {
+          "type": "question",
+          "text": "Tendance à être ou à agir de façon irrationnelle"
+        },
+        {
+          "type": "question",
+          "text": "Impopulaire auprès des autres enfants, ne gardant pas longtemps mes amis, ne m'entendant pas avec les autres enfants"
+        },
+        {
+          "type": "question",
+          "text": "Mal coordonné(e), ne participant pas aux sports"
+        },
+        {
+          "type": "question",
+          "text": "Effrayé(e), de perdre le contrôle de moi-même"
+        },
+        {
+          "type": "question",
+          "text": "Bien coordonné(e), le(a) premier(e) choisi(e) pour jouer"
+        },
+        {
+          "type": "question",
+          "text": "Un garçon manqué (pour les femmes seulement)"
+        },
+        {
+          "type": "question",
+          "text": "Fugueur(se) de la maison"
+        },
+        {
+          "type": "question",
+          "text": "Impliqué(e) dans des bagarres"
+        },
+        {
+          "type": "question",
+          "text": "Taquin(e) envers les autres enfants"
+        },
+        {
+          "type": "question",
+          "text": "Meneur(se), tyrannique"
+        },
+        {
+          "type": "question",
+          "text": "Du mal à me réveiller"
+        },
+        {
+          "type": "question",
+          "text": "Trop facilement mené(e), à la suite des autres"
+        },
+        {
+          "type": "question",
+          "text": "Du mal à voir les choses du point de vue de quelqu'un d'autre"
+        },
+        {
+          "type": "question",
+          "text": "Des ennuis avec les autorités, l'école, convoqué(e) au bureau du proviseur"
+        },
+        {
+          "type": "question",
+          "text": "Des ennuis avec la police, inculpé(e), détenu(e)"
+        },
+        {
+          "type": "subtitle",
+          "content": "Problèmes médicaux dans l'enfance"
+        },
+        {
+          "type": "question",
+          "text": "Des maux de tête"
+        },
+        {
+          "type": "question",
+          "text": "Des maux de ventre"
+        },
+        {
+          "type": "question",
+          "text": "De la constipation"
+        },
+        {
+          "type": "question",
+          "text": "De la diarrhée"
+        },
+        {
+          "type": "question",
+          "text": "Des allergies alimentaires"
+        },
+        {
+          "type": "question",
+          "text": "D'autres allergies"
+        },
+        {
+          "type": "question",
+          "text": "Une énurésie nocturne (pipi au lit)"
+        },
+        {
+          "type": "question",
+          "text": "Dans l'ensemble un(e) bon(ne) élève, rapide"
+        },
+        {
+          "type": "question",
+          "text": "Dans l'ensemble un(e) mauvais(e) élève, apprenant lentement"
+        },
+        {
+          "type": "question",
+          "text": "Un(e) lecteur(rice) lent(e)"
+        },
+        {
+          "type": "question",
+          "text": "Lent(e) pour apprendre à lire"
+        },
+        {
+          "type": "question",
+          "text": "Des problèmes d'inversion de lettres"
+        },
+        {
+          "type": "question",
+          "text": "Des difficultés en orthographe"
+        },
+        {
+          "type": "question",
+          "text": "Des difficultés en mathématiques ou avec les chiffres"
+        },
+        {
+          "type": "question",
+          "text": "Une mauvaise écriture"
+        },
+        {
+          "type": "question",
+          "text": "Capable de lire correctement, mais n'ayant jamais vraiment pris plaisir à lire"
+        },
+        {
+          "type": "question",
+          "text": "En dessous de son potentiel"
+        },
+        {
+          "type": "question",
+          "text": "Redoublé des classes"
+        },
+        {
+          "type": "input",
+          "label": "Quelles classes ?"
+        },
+        {
+          "type": "question",
+          "text": "Été exclu(e) ou renvoyé(e)"
+        },
+        {
+          "type": "input",
+          "label": "Quelles classes ?"
+        }
+      ]
+    }
+  ]
+}

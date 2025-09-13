@@ -1,0 +1,131 @@
+{
+  "documentUrl": "CAARS.pdf",
+  "id": "caars",
+  "name": "CAARS",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Évaluation Conners du taux de TDAH chez les adultes.\nRapport: version courte (CAARS-S:S)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les comportements ou problèmes pouvant parfois affecter les adultes sont indiqués ci-dessous.\nLisez cette liste et voyez si chaque élément s'applique à votre cas et avec quelle fréquence."
+    },
+    {
+      "type": "quizz",
+      "title": "Questionnaire CAARS-S:S",
+      "scale": [
+        "pas du tout, jamais",
+        "un peu, une fois de temps à autre",
+        "assez, souvent",
+        "beaucoup, très souvent"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Je coupe la parole aux autres"
+        },
+        {
+          "type": "question",
+          "text": "Je suis toujours en pleine activité, comme si j'avais un moteur à l'intérieur"
+        },
+        {
+          "type": "question",
+          "text": "Je suis désorganisé(e)"
+        },
+        {
+          "type": "question",
+          "text": "Il m'est difficile de rester très longtemps au même endroit"
+        },
+        {
+          "type": "question",
+          "text": "J'ai des difficultés à suivre le fil de plusieurs choses en même temps"
+        },
+        {
+          "type": "question",
+          "text": "Je m'ennuie facilement"
+        },
+        {
+          "type": "question",
+          "text": "Je me mets facilement en colère / je suis soupe au lait"
+        },
+        {
+          "type": "question",
+          "text": "Je continue à piquer des crises de colère"
+        },
+        {
+          "type": "question",
+          "text": "J'évite de relever de nouveaux défis car je ne crois pas en mes capacités"
+        },
+        {
+          "type": "question",
+          "text": "Je recherche les activités rapides et palpitantes"
+        },
+        {
+          "type": "question",
+          "text": "Je me sens agité(e), même lorsque je suis tranquillement assis(e)"
+        },
+        {
+          "type": "question",
+          "text": "Je suis facilement distrait(e) de ce que je suis en train de faire par des sons ou des images"
+        },
+        {
+          "type": "question",
+          "text": "Beaucoup de choses me mettent en colère ou me bouleversent facilement"
+        },
+        {
+          "type": "question",
+          "text": "Je ne tente pas d'être brillant(e)"
+        },
+        {
+          "type": "question",
+          "text": "Je suis dur(e) avec moi-même"
+        },
+        {
+          "type": "question",
+          "text": "J'agis de façon correcte en apparence, mais au fond de moi je ne me sens pas sûr(e)"
+        },
+        {
+          "type": "question",
+          "text": "Je n'arrive pas à faire les choses si je n'ai pas de délai strict"
+        },
+        {
+          "type": "question",
+          "text": "J'ai des difficultés à me mettre à une tâche"
+        },
+        {
+          "type": "question",
+          "text": "Je m'ingère dans les activités des autres, même lorsque je n'y suis pas invité(e)"
+        },
+        {
+          "type": "question",
+          "text": "Mon humeur est imprévisible"
+        },
+        {
+          "type": "question",
+          "text": "Je suis distrait(e) pendant mes activités quotidiennes"
+        },
+        {
+          "type": "question",
+          "text": "Quelquefois mon attention se centre tellement sur quelque chose que j'oublie tout le reste, et d'autres fois elle est si \"ouverte\" que tout me \"distrait\""
+        },
+        {
+          "type": "question",
+          "text": "J'ai tendance à beaucoup m'agiter et à ne pas rester en place"
+        },
+        {
+          "type": "question",
+          "text": "Je n'arrive pas à me concentrer sur quelque chose, sauf s'il s'agit d'une chose vraiment intéressante"
+        },
+        {
+          "type": "question",
+          "text": "Je voudrais avoir davantage confiance en mes capacités"
+        },
+        {
+          "type": "question",
+          "text": "J'ai du mal à croire en moi à cause de mes échecs passés"
+        }
+      ]
+    }
+  ]
+}

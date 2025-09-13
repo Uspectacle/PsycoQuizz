@@ -1,0 +1,23 @@
+.settings-menu {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.settings-menu button,
+.settings-menu select {
+  padding: 5px 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  background: var(--secondary-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.settings-menu button:hover,
+.settings-menu select:hover {
+  opacity: 0.9;
+}

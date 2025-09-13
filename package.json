@@ -11,14 +11,21 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.1",
+    "html2pdf.js": "^0.12.0",
     "jspdf": "^3.0.2",
+    "latex.js": "^0.12.6",
+    "markdown-it": "^14.1.0",
     "papaparse": "^5.5.3",
+    "puppeteer": "^24.20.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
+    "@types/html2pdf.js": "^0.10.0",
+    "@types/markdown-it": "^14.1.2",
+    "@types/papaparse": "^5.3.16",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",

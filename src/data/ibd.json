@@ -1,0 +1,138 @@
+{
+  "documentUrl": "Beck_depression.pdf",
+  "id": "ibd",
+  "name": "Beck - Dépression",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Inventaire de Beck pour la Dépression"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ceci est un questionnaire contenant plusieurs groupes de phrases.\nPour chacun des groupes: Lisez attentivement toutes les phrases.\nChoisissez la phrase qui décrit le mieux comment vous vous sentez depuis une semaine et dans le moment présent."
+    },
+    {
+      "type": "quizz",
+      "title": "Au cours des 7 derniers jours...",
+      "scale": ["0", "1", "2", "3"],
+      "scoring": [
+        {
+          "min": 0,
+          "max": 9,
+          "text": "Normal"
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "text": "Dépression ou anxiété légères"
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "text": "Dépression ou anxiété modérées"
+        },
+        {
+          "min": 26,
+          "max": 29,
+          "text": "Dépression ou anxiété modérées à sévères"
+        },
+        {
+          "min": 30,
+          "max": 40,
+          "text": "Dépression ou anxiété sévères"
+        },
+        {
+          "min": 41,
+          "max": 63,
+          "text": "Dépression ou anxiété très sévères"
+        }
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Tristesse: \n0 - Je ne suis pas particulièrement triste \n1 - Je me sens morose ou triste \n2 - Je suis tellement triste ou malheureux(se) que cela me fait mal \n3 - Je suis tellement triste ou malheureux(se) que je ne peux plus le supporter"
+        },
+        {
+          "type": "question",
+          "text": "Pessimisme: \n0 - Je ne suis pas particulièrement pessimiste ou découragé(e) au sujet du futur \n1 - Je me sens découragé(e) à propos du futur \n2 - Je sens que je n'ai rien à attendre du futur / Je sens que je n'arriverai jamais à surmonter mes difficultés \n3 - Je sens que le futur est sans espoir et que les choses ne peuvent pas s'améliorer"
+        },
+        {
+          "type": "question",
+          "text": "Sentiment d'échec: \n0 - Je ne me sens pas comme un(e) échec \n1 - Je sens que j'ai échoué plus que la plupart des gens \n2 - Je sens que j'ai accompli très peu de choses qui aient de la valeur ou une signification quelconque \n3 - Quand je pense à ma vie passée, je ne peux voir rien d'autre qu'un grand nombre d'échecs / Je sens que je suis un échec complet en tant que personne (parent, mari, femme)"
+        },
+        {
+          "type": "question",
+          "text": "Insatisfaction: \n0 - Je ne suis pas particulièrement mécontent(e) \n1 - Je me sens tanné(e) la plupart du temps \n2 - Je ne prends plus plaisir aux choses comme auparavant \n3 - Je n'obtiens plus de satisfaction de quoi que ce soit / Je suis mécontent(e) de tout"
+        },
+        {
+          "type": "question",
+          "text": "Culpabilité: \n0 - Je ne me sens pas particulièrement coupable \n1 - Je me sens coupable \n2 - Je me sens plutôt coupable \n3 - Je me sens mauvais(e) et indigne presque tout le temps / Je sens que je suis très mauvais(e) ou très indigne"
+        },
+        {
+          "type": "question",
+          "text": "Sentiment de punition: \n0 - Je n'ai pas l'impression d'être puni(e) \n1 - J'ai l'impression que je pourrais être puni(e) \n2 - Je m'attends à être puni(e) \n3 - Je sens que je suis puni(e) / Je veux être puni(e)"
+        },
+        {
+          "type": "question",
+          "text": "Dégoût de soi: \n0 - Je ne me sens pas déçu(e) de moi-même \n1 - Je suis déçu(e) de moi-même \n2 - Je ne m'aime pas \n3 - Je suis dégoûté(e) de moi-même"
+        },
+        {
+          "type": "question",
+          "text": "Auto-accusations: \n0 - Je ne me sens pas pire que les autres \n1 - Je me critique pour mes faiblesses et mes erreurs \n2 - Je me blâme pour mes fautes \n3 - Je me blâme pour tout ce qui arrive de mal"
+        },
+        {
+          "type": "question",
+          "text": "Idées suicidaires: \n0 - Je n'ai aucune idée de me faire du mal \n1 - J'ai des idées de me faire du mal mais je ne les mettrais pas à exécution \n2 - J'ai des idées de me faire du mal / Je serais mieux mort(e) \n3 - J'ai des plans bien définis pour me suicider / Je me suiciderais si je le pouvais"
+        },
+        {
+          "type": "question",
+          "text": "Pleurs: \n0 - Je ne pleure pas plus que d'habitude \n1 - Je pleure plus maintenant qu'auparavant \n2 - Je pleure tout le temps maintenant. Je ne peux plus m'arrêter \n3 - Auparavant, j'étais capable de pleurer mais maintenant je ne peux pas pleurer du tout, même si je le veux"
+        },
+        {
+          "type": "question",
+          "text": "Irritabilité: \n0 - Je ne suis pas plus irrité(e) maintenant que je le suis d'habitude \n1 - Je suis contrarié(e) ou irrité(e) plus facilement maintenant qu'en temps ordinaire \n2 - Je me sens irrité(e) tout le temps \n3 - Je ne suis plus irrité(e) du tout par les choses qui m'irritent habituellement"
+        },
+        {
+          "type": "question",
+          "text": "Retrait social: \n0 - Je n'ai pas perdu intérêt aux autres \n1 - Je suis moins intéressé(e) aux autres maintenant \n2 - J'ai perdu la plupart de mon intérêt pour les autres \n3 - J'ai perdu tout mon intérêt pour les autres et je ne me soucie pas d'eux"
+        },
+        {
+          "type": "question",
+          "text": "Indécision: \n0 - Je prends des décisions aussi bien que d'habitude \n1 - J'essaie de remettre à plus tard mes décisions \n2 - J'ai beaucoup de difficultés à prendre des décisions \n3 - Je ne suis plus capable de prendre des décisions du tout"
+        },
+        {
+          "type": "question",
+          "text": "Image corporelle: \n0 - Je n'ai pas l'impression de paraître pire qu'auparavant \n1 - J'ai l'impression de paraître vieux(vieille) et sans attrait \n2 - Je sens qu'il y a des changements permanents dans mon apparence et que ces changements me font paraître peu attrayant(e) \n3 - Je me sens laid(e) et repoussant(e)"
+        },
+        {
+          "type": "question",
+          "text": "Capacité de travail: \n0 - Je peux travailler pratiquement aussi bien qu'avant \n1 - J'ai besoin de faire des efforts supplémentaires pour commencer quelque chose \n2 - Je ne travaille pas aussi bien qu'avant \n3 - J'ai besoin de me pousser très fort pour faire quoi que ce soit / Je ne peux faire aucun travail"
+        },
+        {
+          "type": "question",
+          "text": "Sommeil: \n0 - Je peux dormir aussi bien que d'habitude \n1 - Je ne dors pas aussi bien que d'habitude \n2 - Je me réveille 1-2 heures plus tôt que d'habitude et j'ai de la difficulté à me rendormir \n3 - Je me réveille tôt chaque jour et je ne peux dormir plus de cinq heures"
+        },
+        {
+          "type": "question",
+          "text": "Fatigue: \n0 - Je ne suis pas plus fatigué(e) que d'habitude \n1 - Je me fatigue plus facilement qu'avant \n2 - Je me fatigue à faire quoi que ce soit \n3 - Je suis trop fatigué(e) pour faire quoi que ce soit"
+        },
+        {
+          "type": "question",
+          "text": "Appétit: \n0 - Mon appétit est aussi bon que d'habitude \n1 - Mon appétit n'est pas aussi bon qu'avant \n2 - Mon appétit est beaucoup moins bon maintenant \n3 - Je n'ai plus d'appétit du tout"
+        },
+        {
+          "type": "question",
+          "text": "Perte de poids: \n0 - Je n'ai pas perdu beaucoup de poids (si j'en ai perdu) récemment \n1 - J'ai perdu plus de 2 kilos \n2 - J'ai perdu plus de 5 kilos \n3 - J'ai perdu plus de 10 kilos"
+        },
+        {
+          "type": "question",
+          "text": "Préoccupations somatiques: \n0 - Je ne suis pas plus préoccupé(e) de ma santé que d'habitude \n1 - Je suis préoccupé(e) par des maux ou des douleurs ou des problèmes de digestion ou de constipation \n2 - Je suis tellement préoccupé(e) par ce que je ressens ou comment je me sens qu'il est difficile pour moi de penser à autre chose \n3 - Je pense seulement à ce que je ressens ou comment je me sens"
+        },
+        {
+          "type": "question",
+          "text": "Libido: \n0 - Je n'ai noté aucun changement récent dans mon intérêt pour le sexe \n1 - Je suis moins intéressé(e) par le sexe qu'auparavant \n2 - Je suis beaucoup moins intéressé(e) par le sexe maintenant \n3 - J'ai complètement perdu mon intérêt pour le sexe"
+        }
+      ]
+    }
+  ]
+}

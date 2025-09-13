@@ -1,0 +1,178 @@
+{
+  "documentUrl": "QEP.pdf",
+  "id": "qep",
+  "name": "QEP",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Questionnaire d'Évaluation de la Peur (QEP)"
+    },
+    {
+      "type": "quizz",
+      "title": "A) Situations phobiques",
+      "scale": [
+        "Je n'éviterais pas",
+        "J'éviterais très rarement",
+        "J'éviterais rarement",
+        "J'éviterais de temps à autre",
+        "J'éviterais assez souvent",
+        "J'éviterais souvent",
+        "J'éviterais très souvent",
+        "J'éviterais presque toujours",
+        "J'éviterais toujours"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "Veuillez inscrire à quel point vous éviteriez chacune des situations suivantes par peur ou à cause d'autres sentiments désagréables."
+        },
+        {
+          "type": "input",
+          "label": "La principale phobie pour laquelle je veux être traité(e).\nDécrivez cette phobie dans vos propres mots."
+        },
+        {
+          "type": "question",
+          "text": "Evaluez cette principale phobie."
+        },
+        {
+          "type": "question",
+          "text": "Les injections ou les interventions chirurgicales mineures"
+        },
+        {
+          "type": "question",
+          "text": "Manger ou boire avec d'autres personnes"
+        },
+        {
+          "type": "question",
+          "text": "Les hôpitaux"
+        },
+        {
+          "type": "question",
+          "text": "Voyager seul(e) en autobus"
+        },
+        {
+          "type": "question",
+          "text": "Marcher seul(e) dans des rues achalandées"
+        },
+        {
+          "type": "question",
+          "text": "Être observé(e) ou dévisagé(e)"
+        },
+        {
+          "type": "question",
+          "text": "Aller dans des magasins achalandés"
+        },
+        {
+          "type": "question",
+          "text": "Parler à des personnes qui représentent l'autorité"
+        },
+        {
+          "type": "question",
+          "text": "La vue du sang"
+        },
+        {
+          "type": "question",
+          "text": "Être critiqué(e)"
+        },
+        {
+          "type": "question",
+          "text": "Aller loin de la maison seul(e)"
+        },
+        {
+          "type": "question",
+          "text": "Penser à la maladie ou à un accident"
+        },
+        {
+          "type": "question",
+          "text": "Parler en public"
+        },
+        {
+          "type": "question",
+          "text": "Les espaces verts"
+        },
+        {
+          "type": "question",
+          "text": "Aller chez le dentiste"
+        },
+        {
+          "type": "question",
+          "text": "Autres situations (décrivez-les et évaluez-les)"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "Problèmes émotionnels",
+      "scale": [
+        "Pas du tout troublant",
+        "Un très peu troublant",
+        "Un peu troublant",
+        "Très passablement troublant",
+        "Passablement troublant",
+        "Troublant",
+        "Très troublant",
+        "Vraiment très troublant",
+        "Extrêmement troublant"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "Indiquez à quel point les problèmes ci-dessous vous troublent ou vous dérangent."
+        },
+        {
+          "type": "question",
+          "text": "Se sentir misérable ou déprimé(e)"
+        },
+        {
+          "type": "question",
+          "text": "Se sentir irritable ou agressif(ve)"
+        },
+        {
+          "type": "question",
+          "text": "Se sentir tendu(e) ou paniqué(e)"
+        },
+        {
+          "type": "question",
+          "text": "Avoir des pensées déplaisantes"
+        },
+        {
+          "type": "question",
+          "text": "Se sentir étrange, bizarre ou sentir que les autres sont étranges"
+        },
+        {
+          "type": "input",
+          "label": "Autres sentiments"
+        },
+        {
+          "type": "question",
+          "text": "Évaluez-les"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "C) Auto-évaluation",
+      "scale": [
+        "Aucune phobie présente",
+        "Preque aucune phobie présente",
+        "Un peu dérangeant",
+        "Quelque peu dérangeant",
+        "Passablement dérangeant et handicapant",
+        "Dérangeant et handicapant",
+        "Très dérangeant et handicapant",
+        "Vraiment très dérangeant et handicapant",
+        "Extrêmement dérangeant et handicapant"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "Comment évaluez-vous l'état actuel de vos symptômes phobiques?"
+        },
+        {
+          "type": "question",
+          "text": "État actuel de vos symptômes phobiques"
+        }
+      ]
+    }
+  ]
+}

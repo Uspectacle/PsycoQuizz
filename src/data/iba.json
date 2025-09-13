@@ -1,0 +1,111 @@
+{
+  "documentUrl": "Beck_anxiete.pdf",
+  "id": "iba",
+  "name": "Beck - Anxiété",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Inventaire de Beck pour l'Anxiété"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voici une liste de symptômes courants dus à l'anxiété.\nVeuillez lire chaque symptôme attentivement.\nIndiquez à quel degré vous avez été affecté par chacun de ces symptômes au cours de la dernière semaine, aujourd'hui inclus."
+    },
+    {
+      "type": "quizz",
+      "title": "Au cours des 7 derniers jours, j'ai été affecté(e) par...",
+      "scale": [
+        "Pas du tout",
+        "Un peu - Cela ne m'a pas beaucoup dérangé(e)",
+        "Modérément - C'était très déplaisant mais supportable",
+        "Beaucoup - Je pouvais à peine le supporter"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Sensations d'engourdissement ou de picotement"
+        },
+        {
+          "type": "question",
+          "text": "Bouffées de chaleur"
+        },
+        {
+          "type": "question",
+          "text": "\"Jambes molles\", tremblements dans les jambes"
+        },
+        {
+          "type": "question",
+          "text": "Incapacité de se détendre"
+        },
+        {
+          "type": "question",
+          "text": "Crainte que le pire ne survienne"
+        },
+        {
+          "type": "question",
+          "text": "Étourdissement ou vertige, désorientation"
+        },
+        {
+          "type": "question",
+          "text": "Battements cardiaques marqués ou rapides"
+        },
+        {
+          "type": "question",
+          "text": "Mal assuré(e), manque d'assurance dans mes mouvements"
+        },
+        {
+          "type": "question",
+          "text": "Terrifié(e)"
+        },
+        {
+          "type": "question",
+          "text": "Nervosité"
+        },
+        {
+          "type": "question",
+          "text": "Sensation d'étouffement"
+        },
+        {
+          "type": "question",
+          "text": "Tremblements des mains"
+        },
+        {
+          "type": "question",
+          "text": "Tremblements, chancelant(e)"
+        },
+        {
+          "type": "question",
+          "text": "Crainte de perdre le contrôle de soi"
+        },
+        {
+          "type": "question",
+          "text": "Respiration difficile"
+        },
+        {
+          "type": "question",
+          "text": "Peur de mourir"
+        },
+        {
+          "type": "question",
+          "text": "Sensation de peur, \"avoir la frousse\""
+        },
+        {
+          "type": "question",
+          "text": "Indigestion ou malaise abdominal"
+        },
+        {
+          "type": "question",
+          "text": "Sensation de défaillance ou d'évanouissement"
+        },
+        {
+          "type": "question",
+          "text": "Rougissement du visage"
+        },
+        {
+          "type": "question",
+          "text": "Transpiration (non associée à la chaleur)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.app {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --primary-color: #0066cc;
+  --secondary-color: #f4f4f4;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --hover-color: rgba(0, 102, 204, 0.1);
+  --focus-color: rgba(0, 102, 204, 0.2);
+  --border-radius: 4px;
+  --transition-speed: 0.2s;
+  --danger-color: #cc0000;
+}
+
+.app.dark {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --primary-color: #3399ff;
+  --secondary-color: #2a2a2a;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --hover-color: rgba(51, 153, 255, 0.1);
+  --focus-color: rgba(51, 153, 255, 0.2);
+  --danger-color: #ff3333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  align-items: center;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0;
+}
+
+.text-danger {
+  color: var(--danger-color);
+}
+
+p,
+label,
+h1,
+h2 {
+  white-space: pre-line;
+}
