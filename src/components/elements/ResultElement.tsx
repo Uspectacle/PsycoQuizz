@@ -10,7 +10,7 @@ type Props = {
 export default function ResultElement({ scoring, answers, scale }: Props) {
   const { t } = useTranslation();
   const score = answers.reduce((acc, answer) => acc + answer, 0);
-  const max = answers.length * scale.length - 1;
+  const max = answers.length * (scale.length - 1);
   const result = scoring?.find((s) => score >= s.min && score <= s.max);
   const percentage = Math.round((score / max) * 100);
 
