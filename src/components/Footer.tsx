@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <p>2025 PsycoQuizz</p>
       <a
-        href="https://github.com/Uspectacle/PsycoQuizz"
+        href="https://github.com/Uspectacle/psyco-quizz"
         target="_blank"
         rel="noopener noreferrer"
       >

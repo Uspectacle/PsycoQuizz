@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/PsycoQuizz/", // For GitHub Pages
+  base: "/psyco-quizz/", // For GitHub Pages
   build: {
     outDir: "dist",
     sourcemap: true,

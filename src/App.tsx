@@ -35,7 +35,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useLocalStorage<boolean>("darkMode", false);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/psyco-quizz">
       <div className={`app ${darkMode ? "dark" : ""}`}>
         <Navbar
           tests={TESTS_DATA}
