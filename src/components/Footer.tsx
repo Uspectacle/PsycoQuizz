@@ -5,7 +5,13 @@ export default function Footer() {
   const { t } = useTranslation();
   return (
     <footer className="footer">
-      <p>2025 PsycoQuizz</p>
+      <a
+        href="https://github.com/Uspectacle/psyco-quizz/blob/master/LICENSE"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {t("footer.license")}
+      </a>
       <a
         href="https://github.com/Uspectacle/psyco-quizz"
         target="_blank"
@@ -14,7 +20,13 @@ export default function Footer() {
       >
         <i className="fab fa-github"></i>
       </a>
-      <p>{t("footer.license")}</p>
+      <a
+        href="https://github.com/Uspectacle/psyco-quizz/issues/new"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {t("footer.githubIssue")}
+      </a>
     </footer>
   );
 }

@@ -3,6 +3,7 @@
     "disclaimer": "This test does not constitute a medical diagnosis. Consult a healthcare professional for a complete evaluation."
   },
   "footer": {
+    "githubIssue": "An error? A request? Contact the admin",
     "githubLink": "View on GitHub",
     "license": "GNU GPL v3 License"
   },

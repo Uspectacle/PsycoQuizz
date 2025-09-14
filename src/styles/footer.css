@@ -4,12 +4,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--text-color);
   width: 100%;
 }
 
 .footer a {
+  color: var(--text-color);
+  font-size: 0.8em;
+}
+
+.footer i {
   color: var(--primary-color);
   margin: 10px;
-  font-size: 1.2rem;
+  font-size: 1.8em;
 }
