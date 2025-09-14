@@ -43,7 +43,14 @@ export default function App() {
         />
         <main className="main">
           <Routes>
-            <Route path="/" element={<p>Select a test</p>} />
+            <Route
+              path="/"
+              element={
+                <p className="paragraph-element">
+                  Séléctionnez un test pour commencer
+                </p>
+              }
+            />
             {TESTS_DATA.map((test) => (
               <Route
                 path={"/" + test.id}

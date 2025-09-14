@@ -24,7 +24,7 @@ export default function Navbar({ tests, onToggleDark }: Props) {
           value={location.pathname.substring(1) || ""}
           onChange={(e) => goToTest(e.target.value)}
         >
-          <option value="">Select Test</option>
+          <option value="">Séléctionner un test</option>
           {tests.map((t) => (
             <option key={t.id} value={t.id}>
               {t.name}
