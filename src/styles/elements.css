@@ -39,7 +39,7 @@
   padding: 8px;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
-  background: var(--secondary-color);
+  background: var(--bg-color);
   color: var(--text-color);
 }
 
