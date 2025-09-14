@@ -1,0 +1,112 @@
+{
+  "lang": "en",
+  "documentUrl": "Beck_anxiety.pdf",
+  "id": "iba",
+  "name": "Beck - Anxiety",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Beck Anxiety Inventory"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is a list of common symptoms due to anxiety.\nPlease read each symptom carefully.\nIndicate how much you have been affected by each of these symptoms during the past week, including today."
+    },
+    {
+      "type": "quizz",
+      "title": "During the past 7 days, I have been affected by...",
+      "scale": [
+        "Not at all",
+        "Mildly - It did not bother me much",
+        "Moderately - It was very unpleasant, but I could stand it",
+        "Severely - I could barely stand it"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Sensations of numbness or tingling"
+        },
+        {
+          "type": "question",
+          "text": "Hot flashes"
+        },
+        {
+          "type": "question",
+          "text": "Wobbly legs, trembling in the legs"
+        },
+        {
+          "type": "question",
+          "text": "Unable to relax"
+        },
+        {
+          "type": "question",
+          "text": "Fear of the worst happening"
+        },
+        {
+          "type": "question",
+          "text": "Dizziness or lightheadedness, disorientation"
+        },
+        {
+          "type": "question",
+          "text": "Heart pounding or racing"
+        },
+        {
+          "type": "question",
+          "text": "Unsteady, lack of confidence in movements"
+        },
+        {
+          "type": "question",
+          "text": "Terrified"
+        },
+        {
+          "type": "question",
+          "text": "Nervousness"
+        },
+        {
+          "type": "question",
+          "text": "Feelings of choking"
+        },
+        {
+          "type": "question",
+          "text": "Hands trembling"
+        },
+        {
+          "type": "question",
+          "text": "Shaky, unsteady"
+        },
+        {
+          "type": "question",
+          "text": "Fear of losing self-control"
+        },
+        {
+          "type": "question",
+          "text": "Difficulty breathing"
+        },
+        {
+          "type": "question",
+          "text": "Fear of dying"
+        },
+        {
+          "type": "question",
+          "text": "Feeling scared, being frightened"
+        },
+        {
+          "type": "question",
+          "text": "Indigestion or abdominal discomfort"
+        },
+        {
+          "type": "question",
+          "text": "Feeling faint or like fainting"
+        },
+        {
+          "type": "question",
+          "text": "Face flushed"
+        },
+        {
+          "type": "question",
+          "text": "Sweating (not due to heat)"
+        }
+      ]
+    }
+  ]
+}

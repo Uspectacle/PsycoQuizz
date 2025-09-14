@@ -1,6 +1,7 @@
 import "../styles/navbar.css";
 import type { TestData } from "../types/data";
 import { useNavigate, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 type Props = {
   tests: TestData[];
@@ -10,6 +11,13 @@ type Props = {
 export default function Navbar({ tests, onToggleDark }: Props) {
   const navigate = useNavigate();
   const location = useLocation();
+  const { t, i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const nextLang = i18n.language === "fr" ? "en" : "fr";
+    i18n.changeLanguage(nextLang);
+    console.log(i18n);
+  };
 
   const goToTest = (id: string) => {
     if (id) {
@@ -24,7 +32,7 @@ export default function Navbar({ tests, onToggleDark }: Props) {
           value={location.pathname.substring(1) || ""}
           onChange={(e) => goToTest(e.target.value)}
         >
-          <option value="">Séléctionner un test</option>
+          <option value="">{t("navigation.selectTest")}</option>
           {tests.map((t) => (
             <option key={t.id} value={t.id}>
               {t.name}
@@ -33,7 +41,10 @@ export default function Navbar({ tests, onToggleDark }: Props) {
         </select>
       </div>
       <div className="navbar-right">
-        <button onClick={onToggleDark}>
+        <button onClick={toggleLanguage} title={t("language.switch")}>
+          <i className={`fi ${t("navigation.flag")}`}></i>
+        </button>
+        <button onClick={onToggleDark} title={t("theme.toggle")}>
           <i className="fas fa-circle-half-stroke"></i>
         </button>
       </div>

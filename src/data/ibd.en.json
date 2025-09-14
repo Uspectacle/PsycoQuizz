@@ -1,0 +1,139 @@
+{
+  "lang": "en",
+  "documentUrl": "Beck_depression.pdf",
+  "id": "ibd",
+  "name": "Beck - Depression",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Beck Depression Inventory"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a questionnaire containing several groups of statements.\nFor each group: Read all statements carefully.\nChoose the statement that best describes how you have been feeling for the past week, including today."
+    },
+    {
+      "type": "quizz",
+      "title": "During the past 7 days...",
+      "scale": ["0", "1", "2", "3"],
+      "scoring": [
+        {
+          "min": 0,
+          "max": 9,
+          "text": "Normal"
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "text": "Mild depression or anxiety"
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "text": "Moderate depression or anxiety"
+        },
+        {
+          "min": 26,
+          "max": 29,
+          "text": "Moderate to severe depression or anxiety"
+        },
+        {
+          "min": 30,
+          "max": 40,
+          "text": "Severe depression or anxiety"
+        },
+        {
+          "min": 41,
+          "max": 63,
+          "text": "Very severe depression or anxiety"
+        }
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Sadness: \n0 - I do not feel particularly sad \n1 - I feel gloomy or sad \n2 - I am so sad or unhappy that it hurts \n3 - I am so sad or unhappy that I can't stand it"
+        },
+        {
+          "type": "question",
+          "text": "Pessimism: \n0 - I am not particularly pessimistic or discouraged about the future \n1 - I feel discouraged about the future \n2 - I feel I have nothing to look forward to / I feel that I will never overcome my difficulties \n3 - I feel that the future is hopeless and that things cannot improve"
+        },
+        {
+          "type": "question",
+          "text": "Sense of failure: \n0 - I do not feel like a failure \n1 - I feel I have failed more than the average person \n2 - I feel I have accomplished very little that is worthwhile or meaningful \n3 - Looking back on my life, all I can see is a lot of failures / I feel I am a complete failure as a person (parent, husband, wife)"
+        },
+        {
+          "type": "question",
+          "text": "Dissatisfaction: \n0 - I am not particularly dissatisfied \n1 - I feel tired most of the time \n2 - I don't enjoy things the way I used to \n3 - I don't get satisfaction out of anything anymore / I am dissatisfied with everything"
+        },
+        {
+          "type": "question",
+          "text": "Guilt: \n0 - I don't feel particularly guilty \n1 - I feel guilty \n2 - I feel quite guilty \n3 - I feel bad or unworthy almost all the time / I feel I am very bad or worthless"
+        },
+        {
+          "type": "question",
+          "text": "Punishment feelings: \n0 - I don't feel I am being punished \n1 - I feel I might be punished \n2 - I expect to be punished \n3 - I feel I am being punished / I want to be punished"
+        },
+        {
+          "type": "question",
+          "text": "Self-dislike: \n0 - I don't feel disappointed in myself \n1 - I am disappointed in myself \n2 - I don't like myself \n3 - I am disgusted with myself"
+        },
+        {
+          "type": "question",
+          "text": "Self-accusations: \n0 - I don't feel worse than others \n1 - I criticize myself for my weaknesses or mistakes \n2 - I blame myself for my faults \n3 - I blame myself for everything bad that happens"
+        },
+        {
+          "type": "question",
+          "text": "Suicidal ideas: \n0 - I don't have any thoughts of harming myself \n1 - I have thoughts of harming myself but I would not carry them out \n2 - I have thoughts of harming myself / I would be better off dead \n3 - I have definite plans to kill myself / I would kill myself if I could"
+        },
+        {
+          "type": "question",
+          "text": "Crying: \n0 - I don't cry any more than usual \n1 - I cry more now than I used to \n2 - I cry all the time now. I can't stop \n3 - I used to be able to cry but now I can't cry at all even though I want to"
+        },
+        {
+          "type": "question",
+          "text": "Irritability: \n0 - I am no more irritated now than I ever am \n1 - I get annoyed or irritated more easily than usual \n2 - I feel irritated all the time \n3 - I am not irritated at all by things that used to irritate me"
+        },
+        {
+          "type": "question",
+          "text": "Social withdrawal: \n0 - I have not lost interest in other people \n1 - I am less interested in other people now \n2 - I have lost most of my interest in other people \n3 - I have lost all my interest in other people and don't care about them"
+        },
+        {
+          "type": "question",
+          "text": "Indecisiveness: \n0 - I make decisions about as well as ever \n1 - I try to put off making decisions \n2 - I have great difficulty in making decisions \n3 - I can't make any decisions at all anymore"
+        },
+        {
+          "type": "question",
+          "text": "Body image change: \n0 - I don't feel I look any worse than I used to \n1 - I am worried that I am looking old or unattractive \n2 - I feel that there are permanent changes in my appearance and they make me look unattractive \n3 - I feel that I am ugly or repulsive looking"
+        },
+        {
+          "type": "question",
+          "text": "Work difficulty: \n0 - I can work about as well as before \n1 - It takes extra effort to get started at doing something \n2 - I don't work as well as I used to / I have to push myself very hard to do anything \n3 - I can't do any work at all"
+        },
+        {
+          "type": "question",
+          "text": "Sleep: \n0 - I can sleep as well as usual \n1 - I don't sleep as well as I used to \n2 - I wake up 1-2 hours earlier than usual and find it hard to get back to sleep \n3 - I wake up early each day and can't sleep more than five hours"
+        },
+        {
+          "type": "question",
+          "text": "Fatigue: \n0 - I don't get more tired than usual \n1 - I get tired more easily than I used to \n2 - I get tired from doing almost anything \n3 - I am too tired to do anything"
+        },
+        {
+          "type": "question",
+          "text": "Appetite: \n0 - My appetite is as good as usual \n1 - My appetite is not as good as it used to be \n2 - My appetite is much worse now \n3 - I have no appetite at all anymore"
+        },
+        {
+          "type": "question",
+          "text": "Weight Loss: \n0 - I haven't lost much weight (if any) lately \n1 - I have lost more than 5 pounds \n2 - I have lost more than 10 pounds \n3 - I have lost more than 15 pounds"
+        },
+        {
+          "type": "question",
+          "text": "Somatic Preoccupation: \n0 - I am no more worried about my health than usual \n1 - I am worried about physical problems such as aches and pains, or upset stomach, or constipation \n2 - I am so worried about physical problems that it's hard to think of much else \n3 - I think only about what I feel or how I feel"
+        },
+        {
+          "type": "question",
+          "text": "Loss of Libido: \n0 - I have not noticed any recent change in my interest in sex \n1 - I am less interested in sex than I used to be \n2 - I am much less interested in sex now \n3 - I have lost interest in sex completely"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import type { TestData, TestType } from "../types/data";
 import { useEffect, useState } from "react";
-import { loadTestData, saveTestData } from "../helpers/testData";
+import { useTranslation } from "react-i18next";
 import ActionBar from "./ActionBar";
 import "../styles/elements.css";
 import TitleElement from "./elements/TitleElement";
@@ -8,6 +8,7 @@ import InputElement from "./elements/InputElement";
 import ParagraphElement from "./elements/ParagraphElement";
 import QuizzElement from "./elements/QuizzElement";
 import SubtitleElement from "./elements/SubtitleElement";
+import { loadTestData, saveTestData } from "../helpers/translationHelper";
 
 type Props = {
   test: TestData;
@@ -15,17 +16,17 @@ type Props = {
 
 export default function TestContainer({ test: initialTest }: Props) {
   const [test, setTest] = useState<TestData>(() => {
-    const savedTest = loadTestData(initialTest.id);
+    const savedTest = loadTestData(initialTest.id, initialTest.lang);
     return savedTest || initialTest;
   });
 
   useEffect(() => {
-    const savedTest = loadTestData(initialTest.id);
+    const savedTest = loadTestData(initialTest.id, initialTest.lang);
     setTest(savedTest || initialTest);
   }, [initialTest]);
 
   useEffect(() => {
-    saveTestData(test);
+    saveTestData(test, test.lang);
   }, [test]);
 
   const handleInputAnswer = (
@@ -125,13 +126,14 @@ export default function TestContainer({ test: initialTest }: Props) {
     }
   };
 
+  const { t } = useTranslation();
+
   return (
     <div className="test-container">
       <div className="test-content">{test.elements.map(renderElement)}</div>
       <p className="test-content text-danger">
-        <i className="fa-solid fa-triangle-exclamation text-danger"></i> Ce test
-        ne constitue pas un diagnostic médical. Consultez un professionnel de
-        santé pour une évaluation complète.
+        <i className="fa-solid fa-triangle-exclamation text-danger"></i>{" "}
+        {t("common.disclaimer")}
       </p>
       <ActionBar
         test={test}

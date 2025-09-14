@@ -1,0 +1,77 @@
+{
+  "lang": "en",
+  "documentUrl": "QAP.pdf",
+  "id": "qap",
+  "name": "QAP",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Problem Attitude Questionnaire"
+    },
+    {
+      "type": "paragraph",
+      "content": "People can react differently when facing daily life problems (e.g., health problems, arguments, lack of time, etc.).\nPlease indicate how much each of the following statements corresponds to your way of reacting or thinking when you are confronted with a problem."
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "Not at all corresponding",
+        "A little corresponding",
+        "Fairly corresponding",
+        "Very corresponding",
+        "Extremely corresponding"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "I perceive problems as threatening to my well-being."
+        },
+        {
+          "type": "question",
+          "text": "I often doubt my ability to solve problems."
+        },
+        {
+          "type": "question",
+          "text": "Often, even before trying to find a solution, I tell myself that it is difficult to solve a problem."
+        },
+        {
+          "type": "question",
+          "text": "The problems that happen to me often seem insurmountable."
+        },
+        {
+          "type": "question",
+          "text": "When I try to solve a problem, I often question my abilities."
+        },
+        {
+          "type": "question",
+          "text": "Often, I feel that the problems that happen to me cannot be solved."
+        },
+        {
+          "type": "question",
+          "text": "Even if I manage to see some solutions to my problems, I doubt that they could be resolved easily."
+        },
+        {
+          "type": "question",
+          "text": "I tend to see problems as a danger."
+        },
+        {
+          "type": "question",
+          "text": "My first reaction to a problem is to question my abilities."
+        },
+        {
+          "type": "question",
+          "text": "I often see my problems as bigger than they really are."
+        },
+        {
+          "type": "question",
+          "text": "Even if I have looked at a problem from every possible angle, I still wonder if the solution I have chosen will be effective."
+        },
+        {
+          "type": "question",
+          "text": "I consider problems as obstacles that disrupt my functioning."
+        }
+      ]
+    }
+  ]
+}

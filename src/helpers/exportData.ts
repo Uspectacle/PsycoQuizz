@@ -7,6 +7,7 @@ import type {
 } from "../types/data";
 import MarkdownIt from "markdown-it";
 import html2pdf from "html2pdf.js";
+import { type TFunction } from "i18next";
 
 /** Export format type */
 export type ExportFormat = "pdf" | "csv" | "txt";
@@ -16,19 +17,20 @@ export type ExportFormat = "pdf" | "csv" | "txt";
  */
 export async function exportTestData(
   data: TestData,
-  format: ExportFormat
+  format: ExportFormat,
+  t: TFunction
 ): Promise<void> {
-  const filename = `${data.id}_${formatDate(data.date)}`;
+  const filename = `${data.id}_${formatDate(data.date, t)}`;
 
   switch (format) {
     case "pdf":
-      await exportPDF(data, filename);
+      await exportPDF(data, filename, t);
       break;
     case "csv":
-      exportCSV(data, filename);
+      exportCSV(data, filename, t);
       break;
     case "txt":
-      exportTXT(data);
+      exportTXT(data, t);
       break;
   }
 }
@@ -36,15 +38,15 @@ export async function exportTestData(
 /**
  * Format date as YYYY-MM-DD
  */
-function formatDate(date?: Date): string {
-  if (!date) return "no_date";
+function formatDate(date: Date | undefined, t: TFunction): string {
+  if (!date) return t("export.no_date");
   return new Date(date).toISOString().split("T")[0];
 }
 
 /**
  * Compute quiz score and interpretation
  */
-function computeQuizzResult(quizz: QuizzType) {
+function computeQuizzResult(quizz: QuizzType, t: TFunction) {
   const answers = quizz.elements
     .filter((e): e is QuestionType => e.type === "question")
     .map(({ answer }) => answer);
@@ -56,11 +58,13 @@ function computeQuizzResult(quizz: QuizzType) {
   const percent = max > 0 ? Math.round((score / max) * 100) : NaN;
 
   if (definedAnswers.length !== answers.length) {
+    const count = answers.length - definedAnswers.length;
+
     return {
       score,
       max,
       percent,
-      result: `${answers.length - definedAnswers.length} réponses manquantes`,
+      result: t("export.missing_answers", { count }),
     };
   }
 
@@ -74,10 +78,11 @@ function computeQuizzResult(quizz: QuizzType) {
 /**
  * Convert TestData to Markdown
  */
-function generateMarkdown(data: TestData): string {
+function generateMarkdown(data: TestData, t: TFunction): string {
   let md = `# ${data.name}\n\n`;
 
-  if (data.date) md += `**Date:** ${formatDate(data.date)}\n\n`;
+  if (data.date)
+    md += `**${t("export.date_label")}** ${formatDate(data.date, t)}\n\n`;
   if (data.additionalText) md += `${data.additionalText}\n\n`;
 
   data.elements.forEach((element: TestType) => {
@@ -107,8 +112,12 @@ function generateMarkdown(data: TestData): string {
           }
         });
 
-        const { score, max, percent, result } = computeQuizzResult(element);
-        md += `**Score:** ${score} / ${max} (${percent}%)\n\n`;
+        const { score, max, percent, result } = computeQuizzResult(element, t);
+        md += `**${t("export.score_label")}** ${t("export.score_format", {
+          score,
+          max,
+          percent,
+        })}\n\n`;
         if (result) md += `${result}\n\n`;
         break;
       }
@@ -121,8 +130,8 @@ function generateMarkdown(data: TestData): string {
 /**
  * Export PDF via html2pdf.js (browser-friendly, preserves Markdown formatting)
  */
-async function exportPDF(data: TestData, filename: string) {
-  const md = generateMarkdown(data);
+async function exportPDF(data: TestData, filename: string, t: TFunction) {
+  const md = generateMarkdown(data, t);
   const mdParser = new MarkdownIt();
   const htmlContent = mdParser.render(md);
 
@@ -152,7 +161,7 @@ async function exportPDF(data: TestData, filename: string) {
 /**
  * Export CSV with quiz results
  */
-function exportCSV(data: TestData, filename: string): void {
+function exportCSV(data: TestData, filename: string, t: TFunction): void {
   const rows: Record<string, string>[] = [];
 
   data.elements.forEach((element) => {
@@ -176,7 +185,7 @@ function exportCSV(data: TestData, filename: string): void {
           }
         });
 
-        const { score, max, percent, result } = computeQuizzResult(element);
+        const { score, max, percent, result } = computeQuizzResult(element, t);
         rows.push({
           type: "result",
           quizz: element.title,
@@ -196,11 +205,11 @@ function exportCSV(data: TestData, filename: string): void {
 /**
  * Export TXT with quiz results (copied to clipboard)
  */
-function exportTXT(data: TestData): void {
+function exportTXT(data: TestData, t: TFunction): void {
   const lines: string[] = [];
 
   lines.push(data.name);
-  if (data.date) lines.push(`Date: ${formatDate(data.date)}`);
+  if (data.date) lines.push(`Date: ${formatDate(data.date, t)}`);
   if (data.additionalText) lines.push(data.additionalText);
   lines.push("");
 
@@ -230,7 +239,7 @@ function exportTXT(data: TestData): void {
           }
         });
 
-        const { score, max, percent, result } = computeQuizzResult(element);
+        const { score, max, percent, result } = computeQuizzResult(element, t);
         lines.push(`Score: ${score} / ${max} (${percent}%)`);
         if (result) lines.push(result);
         break;
@@ -240,7 +249,7 @@ function exportTXT(data: TestData): void {
   });
 
   navigator.clipboard.writeText(lines.join("\n"));
-  alert("Answers copied to clipboard");
+  alert(t("export.answers_copied"));
 }
 
 /**

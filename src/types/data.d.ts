@@ -46,6 +46,7 @@ export type QuizzType = {
 export type TestType = TextType | QuizzType;
 
 export type TestData = {
+  lang: "en" | "fr";
   documentUrl: string;
   id: string;
   name: string;

@@ -1,0 +1,62 @@
+{
+  "common": {
+    "disclaimer": "Ce test ne constitue pas un diagnostic médical. Consultez un professionnel de santé pour une évaluation complète."
+  },
+  "footer": {
+    "githubLink": "Voir sur GitHub",
+    "license": "Licence GNU GPL v3"
+  },
+  "quizz": {
+    "progress": "Progression : {{answered}} / {{total}} questions répondues",
+    "jumpToUnanswered": "Aller à la question sans réponse"
+  },
+  "result": {
+    "score": "Score : {{score}} / {{max}} ({{percentage}}%)"
+  },
+  "input": {
+    "placeholder": "Votre réponse ici..."
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre",
+    "toggle": "Changer le thème"
+  },
+  "language": {
+    "fr": "Français",
+    "en": "Anglais",
+    "switch": "Changer de langue"
+  },
+  "navigation": {
+    "home": "Sélectionnez un test pour commencer",
+    "settings": "Paramètres",
+    "selectTest": "Sélectionner un test",
+    "flag": "fi-gb"
+  },
+  "actions": {
+    "start": "Commencer",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "submit": "Soumettre",
+    "reset": "Réinitialiser",
+    "export": "Exporter",
+    "clear": "Effacer",
+    "clearConfirm": "Êtes-vous sûr de vouloir effacer toutes les réponses ?",
+    "copyLink": "Copier le lien",
+    "linkCopied": "Lien de la page copié dans le presse-papiers",
+    "originalDoc": "Document de test original",
+    "exportPdf": "Exporter les réponses en PDF",
+    "exportCsv": "Exporter les réponses en CSV",
+    "exportText": "Copier les réponses en texte",
+    "date": "Date",
+    "additionalNotes": "Notes additionnelles",
+    "notesPlaceholder": "Ajoutez des notes supplémentaires ici, comme votre nom"
+  },
+  "export": {
+    "missing_answers": "{{count}} réponses manquantes",
+    "no_date": "pas de date",
+    "date_label": "Date:",
+    "score_label": "Score:",
+    "score_format": "{{score}} / {{max}} ({{percent}}%)",
+    "answers_copied": "Réponses copiées dans le presse-papier"
+  }
+}

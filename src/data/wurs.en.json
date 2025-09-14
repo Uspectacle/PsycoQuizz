@@ -1,0 +1,285 @@
+{
+  "lang": "en",
+  "documentUrl": "WURS.docx",
+  "id": "wurs",
+  "name": "WURS",
+  "elements": [
+    {
+      "type": "title",
+      "content": "WURS (Wender Utah Rating Scale)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Retrospective scale for evaluating ADHD symptoms in childhood"
+    },
+    {
+      "type": "quizz",
+      "title": "As a child, I was (or had)...",
+      "scale": [
+        "Not at all or very slightly",
+        "Slightly",
+        "Moderately",
+        "Quite a bit",
+        "Very much"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Active, restless, always running around"
+        },
+        {
+          "type": "question",
+          "text": "Afraid of things"
+        },
+        {
+          "type": "question",
+          "text": "Concentration problems, easily distracted"
+        },
+        {
+          "type": "question",
+          "text": "Anxious, worrying"
+        },
+        {
+          "type": "question",
+          "text": "Nervous, fidgety"
+        },
+        {
+          "type": "question",
+          "text": "Inattentive, daydreaming"
+        },
+        {
+          "type": "question",
+          "text": "Easily angered, hot-tempered"
+        },
+        {
+          "type": "question",
+          "text": "Shy, sensitive"
+        },
+        {
+          "type": "question",
+          "text": "Mood outbursts, temper tantrums"
+        },
+        {
+          "type": "question",
+          "text": "Difficulty sticking to things, completing projects, finishing things started"
+        },
+        {
+          "type": "question",
+          "text": "Stubborn, obstinate"
+        },
+        {
+          "type": "question",
+          "text": "Sad or blue, depressed, unhappy"
+        },
+        {
+          "type": "question",
+          "text": "Reckless, daredevil, acting wild"
+        },
+        {
+          "type": "question",
+          "text": "Not enjoying doing things, dissatisfied with life"
+        },
+        {
+          "type": "question",
+          "text": "Disobedient with parents, rebellious, cheeky"
+        },
+        {
+          "type": "question",
+          "text": "Low opinion of myself"
+        },
+        {
+          "type": "question",
+          "text": "Irritable"
+        },
+        {
+          "type": "question",
+          "text": "Sociable, friendly, enjoying others' company"
+        },
+        {
+          "type": "question",
+          "text": "Careless, disorderly"
+        },
+        {
+          "type": "question",
+          "text": "Moody, ups and downs"
+        },
+        {
+          "type": "question",
+          "text": "Angry"
+        },
+        {
+          "type": "question",
+          "text": "Having friends, popular"
+        },
+        {
+          "type": "question",
+          "text": "Well organized, orderly, neat"
+        },
+        {
+          "type": "question",
+          "text": "Impulsive, acting without thinking"
+        },
+        {
+          "type": "question",
+          "text": "Tendency to be immature"
+        },
+        {
+          "type": "question",
+          "text": "Guilt-ridden, full of regrets"
+        },
+        {
+          "type": "question",
+          "text": "Loss of control of myself"
+        },
+        {
+          "type": "question",
+          "text": "Tendency to be or act irrationally"
+        },
+        {
+          "type": "question",
+          "text": "Unpopular with other children, not keeping friends long, not getting along with other children"
+        },
+        {
+          "type": "question",
+          "text": "Poorly coordinated, not participating in sports"
+        },
+        {
+          "type": "question",
+          "text": "Afraid of losing control of myself"
+        },
+        {
+          "type": "question",
+          "text": "Well coordinated, first chosen to play"
+        },
+        {
+          "type": "question",
+          "text": "A tomboy (for women only)"
+        },
+        {
+          "type": "question",
+          "text": "Running away from home"
+        },
+        {
+          "type": "question",
+          "text": "Getting into fights"
+        },
+        {
+          "type": "question",
+          "text": "Teasing other children"
+        },
+        {
+          "type": "question",
+          "text": "Leader, bossy"
+        },
+        {
+          "type": "question",
+          "text": "Trouble waking up"
+        },
+        {
+          "type": "question",
+          "text": "Too easily led, following others"
+        },
+        {
+          "type": "question",
+          "text": "Trouble seeing things from someone else's point of view"
+        },
+        {
+          "type": "question",
+          "text": "Trouble with authorities, school, summoned to the principal's office"
+        },
+        {
+          "type": "question",
+          "text": "Trouble with police, charged, detained"
+        },
+        {
+          "type": "subtitle",
+          "content": "Medical problems in childhood"
+        },
+        {
+          "type": "question",
+          "text": "Headaches"
+        },
+        {
+          "type": "question",
+          "text": "Stomach aches"
+        },
+        {
+          "type": "question",
+          "text": "Constipation"
+        },
+        {
+          "type": "question",
+          "text": "Diarrhea"
+        },
+        {
+          "type": "question",
+          "text": "Food allergies"
+        },
+        {
+          "type": "question",
+          "text": "Other allergies"
+        },
+        {
+          "type": "question",
+          "text": "Nocturnal enuresis (bedwetting)"
+        },
+        {
+          "type": "question",
+          "text": "Overall a good student, quick learner"
+        },
+        {
+          "type": "question",
+          "text": "Overall a poor student, slow learner"
+        },
+        {
+          "type": "question",
+          "text": "Slow reader"
+        },
+        {
+          "type": "question",
+          "text": "Slow to learn to read"
+        },
+        {
+          "type": "question",
+          "text": "Letter reversal problems"
+        },
+        {
+          "type": "question",
+          "text": "Spelling difficulties"
+        },
+        {
+          "type": "question",
+          "text": "Trouble with mathematics or numbers"
+        },
+        {
+          "type": "question",
+          "text": "Poor handwriting"
+        },
+        {
+          "type": "question",
+          "text": "Able to read properly, but never really enjoyed reading"
+        },
+        {
+          "type": "question",
+          "text": "Not achieving up to potential"
+        },
+        {
+          "type": "question",
+          "text": "Repeated grades"
+        },
+        {
+          "type": "input",
+          "label": "Which grades?"
+        },
+        {
+          "type": "question",
+          "text": "Excluded or expelled"
+        },
+        {
+          "type": "input",
+          "label": "Which grades?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "common": {
+    "disclaimer": "This test does not constitute a medical diagnosis. Consult a healthcare professional for a complete evaluation."
+  },
+  "footer": {
+    "githubLink": "View on GitHub",
+    "license": "GNU GPL v3 License"
+  },
+  "quizz": {
+    "progress": "Progress: {{answered}} / {{total}} questions answered",
+    "jumpToUnanswered": "Jump to unanswered question"
+  },
+  "result": {
+    "score": "Score: {{score}} / {{max}} ({{percentage}}%)"
+  },
+  "input": {
+    "placeholder": "Your answer here..."
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "fr": "French",
+    "en": "English",
+    "switch": "Switch language"
+  },
+  "navigation": {
+    "home": "Select a test to begin",
+    "settings": "Settings",
+    "selectTest": "Select a test",
+    "flag": "fi-fr"
+  },
+  "actions": {
+    "start": "Start",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "export": "Export",
+    "clear": "Clear",
+    "clearConfirm": "Are you sure you want to clear all answers?",
+    "copyLink": "Copy link",
+    "linkCopied": "Page link copied to clipboard",
+    "originalDoc": "Original Test Document",
+    "exportPdf": "Export Answers as PDF",
+    "exportCsv": "Export Answers as CSV",
+    "exportText": "Copy Answers as Text",
+    "date": "Date",
+    "additionalNotes": "Additional Notes",
+    "notesPlaceholder": "Add any additional notes here, like your name"
+  },
+  "export": {
+    "missing_answers": "{{count}} missing answers",
+    "missing_answers_one": "1 missing answer",
+    "no_date": "no date",
+    "date_label": "Date:",
+    "score_label": "Score:",
+    "score_format": "{{score}} / {{max}} ({{percent}}%)",
+    "answers_copied": "Answers copied to clipboard"
+  }
+}

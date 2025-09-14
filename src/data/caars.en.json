@@ -1,0 +1,132 @@
+{
+  "lang": "en",
+  "documentUrl": "CAARS.pdf",
+  "id": "caars",
+  "name": "CAARS",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Conners' Adult ADHD Rating Scale.\nReport: Short Version (CAARS-S:S)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Below are behaviors or problems that can sometimes affect adults.\nRead this list and see if each item applies to your case and how often."
+    },
+    {
+      "type": "quizz",
+      "title": "CAARS-S:S Questionnaire",
+      "scale": [
+        "not at all, never",
+        "just a little, once in a while",
+        "pretty much, often",
+        "very much, very frequently"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "I interrupt others when talking"
+        },
+        {
+          "type": "question",
+          "text": "I am always on the go, as if driven by a motor"
+        },
+        {
+          "type": "question",
+          "text": "I am disorganized"
+        },
+        {
+          "type": "question",
+          "text": "It's difficult for me to stay in one place for very long"
+        },
+        {
+          "type": "question",
+          "text": "I have difficulty keeping track of several things at once"
+        },
+        {
+          "type": "question",
+          "text": "I get bored easily"
+        },
+        {
+          "type": "question",
+          "text": "I get easily angry / I am hot-tempered"
+        },
+        {
+          "type": "question",
+          "text": "I still have temper outbursts"
+        },
+        {
+          "type": "question",
+          "text": "I avoid new challenges because I lack faith in my abilities"
+        },
+        {
+          "type": "question",
+          "text": "I seek out fast-paced, exciting activities"
+        },
+        {
+          "type": "question",
+          "text": "I feel restless inside even when sitting still"
+        },
+        {
+          "type": "question",
+          "text": "I am easily distracted from what I'm doing by sounds or images"
+        },
+        {
+          "type": "question",
+          "text": "Many things set me off easily or make me upset"
+        },
+        {
+          "type": "question",
+          "text": "I don't try to be outstanding"
+        },
+        {
+          "type": "question",
+          "text": "I am hard on myself"
+        },
+        {
+          "type": "question",
+          "text": "I act okay on the outside, but inside I feel unsure of myself"
+        },
+        {
+          "type": "question",
+          "text": "I can't get things done unless there's a strict deadline"
+        },
+        {
+          "type": "question",
+          "text": "I have trouble getting started on tasks"
+        },
+        {
+          "type": "question",
+          "text": "I intrude on others' activities even when not invited"
+        },
+        {
+          "type": "question",
+          "text": "My moods are unpredictable"
+        },
+        {
+          "type": "question",
+          "text": "I am absent-minded in daily activities"
+        },
+        {
+          "type": "question",
+          "text": "Sometimes my attention is so focused on something that I forget everything else, and other times it's so \"open\" that everything distracts me"
+        },
+        {
+          "type": "question",
+          "text": "I tend to fidget a lot and can't stay still"
+        },
+        {
+          "type": "question",
+          "text": "I can't concentrate on something unless it's really interesting"
+        },
+        {
+          "type": "question",
+          "text": "I wish I had more confidence in my abilities"
+        },
+        {
+          "type": "question",
+          "text": "I have trouble believing in myself because of my past failures"
+        }
+      ]
+    }
+  ]
+}

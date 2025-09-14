@@ -1,0 +1,137 @@
+{
+  "lang": "en",
+  "documentUrl": "EII.pdf",
+  "id": "eii",
+  "name": "IIS",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Intolerance of Uncertainty Scale"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is a series of statements that represent how people can react to uncertainty in life.\nIndicate to what extent each of the following statements corresponds to you."
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "Not at all corresponding",
+        "A little corresponding",
+        "Fairly corresponding",
+        "Very corresponding",
+        "Totally corresponding"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Uncertainty prevents me from taking a stand."
+        },
+        {
+          "type": "question",
+          "text": "Being uncertain means that one is disorganized."
+        },
+        {
+          "type": "question",
+          "text": "Uncertainty makes life intolerable."
+        },
+        {
+          "type": "question",
+          "text": "It's unfair not to have guarantees in life."
+        },
+        {
+          "type": "question",
+          "text": "I can't be at peace until I know what's going to happen tomorrow."
+        },
+        {
+          "type": "question",
+          "text": "Uncertainty makes me uneasy, anxious, or stressed."
+        },
+        {
+          "type": "question",
+          "text": "Unexpected events bother me enormously."
+        },
+        {
+          "type": "question",
+          "text": "It frustrates me not to have all the information I need."
+        },
+        {
+          "type": "question",
+          "text": "Uncertainty prevents me from enjoying life fully."
+        },
+        {
+          "type": "question",
+          "text": "We should foresee everything to avoid surprises."
+        },
+        {
+          "type": "question",
+          "text": "The smallest unexpected event can spoil everything, even with the best planning."
+        },
+        {
+          "type": "question",
+          "text": "When it's time to act, uncertainty paralyzes me."
+        },
+        {
+          "type": "question",
+          "text": "Being uncertain means that I'm not up to it."
+        },
+        {
+          "type": "question",
+          "text": "When I am uncertain, I can't move forward."
+        },
+        {
+          "type": "question",
+          "text": "When I am uncertain, I can't function very well."
+        },
+        {
+          "type": "question",
+          "text": "Unlike me, others always seem to know where they're going in life."
+        },
+        {
+          "type": "question",
+          "text": "Uncertainty makes me vulnerable, unhappy, or sad."
+        },
+        {
+          "type": "question",
+          "text": "I always want to know what the future has in store for me."
+        },
+        {
+          "type": "question",
+          "text": "I hate being taken by surprise."
+        },
+        {
+          "type": "question",
+          "text": "The smallest doubt can stop me from acting."
+        },
+        {
+          "type": "question",
+          "text": "I must be able to organize everything in advance."
+        },
+        {
+          "type": "question",
+          "text": "Being uncertain means that I lack confidence."
+        },
+        {
+          "type": "question",
+          "text": "I find it unfair that other people seem certain about their future."
+        },
+        {
+          "type": "question",
+          "text": "Uncertainty prevents me from sleeping well."
+        },
+        {
+          "type": "question",
+          "text": "I must get away from all uncertain situations."
+        },
+        {
+          "type": "question",
+          "text": "The ambiguities in life stress me."
+        },
+        {
+          "type": "question",
+          "text": "I can't stand being undecided about my future."
+        }
+      ]
+    }
+  ]
+}

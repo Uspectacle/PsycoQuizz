@@ -1,0 +1,129 @@
+{
+  "lang": "en",
+  "documentUrl": "QIA.pdf",
+  "id": "qia",
+  "name": "QIA",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Worry and Anxiety Questionnaire"
+    },
+    {
+      "type": "paragraph",
+      "content": "1) What topics do you worry about most often?"
+    },
+    {
+      "type": "input",
+      "label": "a)"
+    },
+    {
+      "type": "input",
+      "label": "b)"
+    },
+    {
+      "type": "input",
+      "label": "c)"
+    },
+    {
+      "type": "input",
+      "label": "d)"
+    },
+    {
+      "type": "input",
+      "label": "e)"
+    },
+    {
+      "type": "input",
+      "label": "f)"
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": ["0", "1", "2", "3", "4", "5", "6", "7", "8"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "2) Do your worries seem excessive or exaggerated to you? \n0 - Not at all excessive \n4 - Moderately excessive \n8 - Completely excessive"
+        },
+        {
+          "type": "question",
+          "text": "3) Over the past six months, how many days have you been disturbed by excessive worrying? \n0 - Never \n4 - Every other day \n8 - Every day"
+        },
+        {
+          "type": "question",
+          "text": "4) Do you have difficulty controlling your worries? For example, when you start worrying about something, do you have difficulty stopping? \n0 - No difficulty \n4 - Moderate difficulty \n8 - Extreme difficulty"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "0 - Not at all",
+        "1 - Slightly",
+        "2 - Slightly",
+        "3 - Moderately",
+        "4 - Moderately",
+        "5 - Moderately",
+        "6 - Severely",
+        "7 - Severely",
+        "8 - Very severely"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "Over the past six months, have you often been disturbed by any of the following sensations when you were worried or anxious?"
+        },
+        {
+          "type": "question",
+          "text": "Restlessness, feeling keyed up or on edge"
+        },
+        {
+          "type": "question",
+          "text": "Being easily fatigued"
+        },
+        {
+          "type": "question",
+          "text": "Difficulty concentrating or mind going blank"
+        },
+        {
+          "type": "question",
+          "text": "Irritability"
+        },
+        {
+          "type": "question",
+          "text": "Muscle tension"
+        },
+        {
+          "type": "question",
+          "text": "Sleep disturbance (difficulty falling or staying asleep, or restless unsatisfying sleep)"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "0 - Not at all",
+        "1 - Slightly",
+        "2 - Slightly",
+        "3 - Moderately",
+        "4 - Moderately",
+        "5 - Moderately",
+        "6 - Severely",
+        "7 - Severely",
+        "8 - Very severely"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "6) To what extent does anxiety or worry interfere with your life, that is, your work, social activities, family, etc.? (Not at all = 0, Moderately = 4, Very severely = 8)"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Scoring instructions:\nTo calculate the total QIA score, sum the responses to all items (except responses to item 1).\n\nTo meet the GAD criteria for the QIA, the person must report at least one worry theme, indicate a score of '4' or more on items 2, 3, 4 and 6, in addition to indicating a score of '4' or more on at least 3 of the 6 somatic symptoms (item 5).\n\nThree other criteria categories can be met:\n-Cognitive criterion (score of '4' or more on items 2, 3 and 4)\n-Somatic criterion (score of '4' or more on at least 3 of the 6 somatic symptoms of item 5)\n-No criterion (does not meet any of the preceding criteria)"
+    }
+  ]
+}

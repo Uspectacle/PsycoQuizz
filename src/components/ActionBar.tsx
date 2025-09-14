@@ -1,5 +1,6 @@
 import type { TestData } from "../types/data";
 import type { ExportFormat } from "../helpers/exportData";
+import { useTranslation } from "react-i18next";
 import { exportTestData } from "../helpers/exportData";
 
 type Props = {
@@ -15,25 +16,27 @@ export default function ActionBar({
   onAdditionalTextChange,
   onClear,
 }: Props) {
+  const { t } = useTranslation();
+
   const handleExport = (format: ExportFormat) => {
-    exportTestData(test, format);
+    exportTestData(test, format, t);
   };
 
   const confirmClear = () => {
-    if (window.confirm("Are you sure you want to clear all answers?")) {
+    if (window.confirm(t("actions.clearConfirm"))) {
       onClear();
     }
   };
 
   const copyLink = () => {
     navigator.clipboard.writeText(window.location.href);
-    alert("Page link copied to clipboard");
+    alert(t("actions.linkCopied"));
   };
 
   return (
     <div className="action-bar">
       <div className="date-input">
-        <label>Date:</label>
+        <label>{t("actions.date")}:</label>
         <input
           type="date"
           value={
@@ -45,22 +48,22 @@ export default function ActionBar({
         />
       </div>
       <div className="additional-text">
-        <label>Additional Notes:</label>
+        <label>{t("actions.additionalNotes")}:</label>
         <textarea
           value={test.additionalText ?? ""}
           onChange={(e) => onAdditionalTextChange(e.target.value)}
-          placeholder="Add any additional notes here, like your name"
+          placeholder={t("actions.notesPlaceholder")}
         />
       </div>
       <div className="action-bar-buttons">
         <button onClick={() => handleExport("pdf")}>
-          <i className="fa-solid fa-file-pdf"></i> Export Answers as PDF
+          <i className="fa-solid fa-file-pdf"></i> {t("actions.exportPdf")}
         </button>
         <button onClick={() => handleExport("csv")}>
-          <i className="fa-solid fa-file-csv"></i> Export Answers as CSV
+          <i className="fa-solid fa-file-csv"></i> {t("actions.exportCsv")}
         </button>
         <button onClick={() => handleExport("txt")}>
-          <i className="fa-solid fa-file-export"></i> Copy Answers as Text
+          <i className="fa-solid fa-file-export"></i> {t("actions.exportText")}
         </button>
       </div>
       <div className="action-bar-buttons">
@@ -70,17 +73,17 @@ export default function ActionBar({
           rel="noopener noreferrer"
         >
           <button>
-            <i className="fa-solid fa-file-arrow-down"></i> Original Test
-            Document
+            <i className="fa-solid fa-file-arrow-down"></i>{" "}
+            {t("actions.originalDoc")}
           </button>
         </a>
         <button onClick={copyLink}>
-          <i className="fa-solid fa-link"></i> Copy Link
+          <i className="fa-solid fa-link"></i> {t("actions.copyLink")}
         </button>
       </div>
       <div className="action-bar-buttons">
         <button onClick={confirmClear} className="danger">
-          <i className="fa-solid fa-trash"></i> Clear Answers
+          <i className="fa-solid fa-trash"></i> {t("actions.clear")}
         </button>
       </div>
     </div>

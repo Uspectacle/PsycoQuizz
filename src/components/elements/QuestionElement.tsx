@@ -23,6 +23,11 @@ export default function QuestionElement({ element, scale, onAnswer }: Props) {
               onAnswer(parseInt((e.target as HTMLInputElement).value));
             }
           }}
+          onTouchEnd={(e) => {
+            if (element.answer === undefined) {
+              onAnswer(parseInt((e.target as HTMLInputElement).value));
+            }
+          }}
           list={`tick-${element.text}`}
         />
         <datalist id={`tick-${element.text}`}>

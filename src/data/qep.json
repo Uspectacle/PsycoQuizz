@@ -1,4 +1,5 @@
 {
+  "lang": "fr",
   "documentUrl": "QEP.pdf",
   "id": "qep",
   "name": "QEP",
@@ -95,14 +96,18 @@
           "text": "Aller chez le dentiste"
         },
         {
+          "type": "input",
+          "text": "Autres situations:"
+        },
+        {
           "type": "question",
-          "text": "Autres situations (décrivez-les et évaluez-les)"
+          "text": "Évaluez-les"
         }
       ]
     },
     {
       "type": "quizz",
-      "title": "Problèmes émotionnels",
+      "title": "B) Problèmes émotionnels",
       "scale": [
         "Pas du tout troublant",
         "Un très peu troublant",

@@ -1,9 +1,10 @@
 import type { QuestionType, QuizzType } from "../../types/data";
+import { useTranslation } from "react-i18next";
+import { useMemo } from "react";
 import InputElement from "./InputElement";
 import ParagraphElement from "./ParagraphElement";
 import QuestionElement from "./QuestionElement";
 import ResultElement from "./ResultElement";
-import { useMemo } from "react";
 import SubtitleElement from "./SubtitleElement";
 import TitleElement from "./TitleElement";
 
@@ -20,6 +21,8 @@ export default function QuizzElement({
   onAnswer,
   onInputAnswer,
 }: Props) {
+  const { t } = useTranslation();
+
   const { answeredCount, totalQuestions } = useMemo(() => {
     const questionElements = element.elements.filter(
       (e) => e.type === "question"
@@ -86,7 +89,10 @@ export default function QuizzElement({
         {answeredCount < totalQuestions ? (
           <div className="progress-status">
             <h4>
-              Progress: {answeredCount} / {totalQuestions} questions answered
+              {t("quizz.progress", {
+                answered: answeredCount,
+                total: totalQuestions,
+              })}
             </h4>
             {unansweredIndex >= 0 && (
               <button
@@ -94,7 +100,7 @@ export default function QuizzElement({
                 onClick={() => scrollToQuestion(unansweredIndex)}
                 className="question-link"
               >
-                Jump to unanswered question
+                {t("quizz.jumpToUnanswered")}
               </button>
             )}
           </div>

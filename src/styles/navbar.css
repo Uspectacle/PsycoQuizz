@@ -8,6 +8,64 @@
   padding: 10px;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbar-right button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin: 0;
+  border: none;
+  border-radius: var(--border-radius);
+  background: none;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background var(--transition-speed);
+  width: 36px;
+  height: 36px;
+}
+
+.navbar-right button:hover {
+  background: var(--hover-color);
+}
+
+.navbar-right button:focus {
+  outline: none;
+  background: var(--focus-color);
+}
+
+.navbar-right .fi {
+  width: 20px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+.navbar select {
+  padding: 8px;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  background: var(--secondary-color);
+  color: var(--text-color);
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.navbar select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px var(--focus-color);
+}
+
 .navbar select {
   padding: 0.5rem 1rem;
   font-size: 1rem;

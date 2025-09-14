@@ -1,0 +1,219 @@
+{
+  "lang": "en",
+  "documentUrl": "COPELAND_ADHD_adult.pdf",
+  "id": "copeland",
+  "name": "COPELAND",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Copeland Questionnaire - Adult ADHD"
+    },
+    {
+      "type": "paragraph",
+      "content": "Assessment of ADHD symptoms in adults across dimensions of inattention, impulsivity, and activity levels"
+    },
+    {
+      "type": "paragraph",
+      "content": "This test should be completed both by the person likely to have ADHD and by another person who knows them well.\nIndicate to what degree (from 0 to 3) the described behavior applies to you or the person you are evaluating"
+    },
+    {
+      "type": "quizz",
+      "title": "I. Inattention/Distractibility",
+      "scale": ["Not at all", "A little", "Fairly", "Very much"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Limited time concentration, especially for routine activities"
+        },
+        {
+          "type": "question",
+          "text": "Difficulties completing started tasks"
+        },
+        {
+          "type": "question",
+          "text": "Daydreams with eyes open"
+        },
+        {
+          "type": "question",
+          "text": "Easily distracted"
+        },
+        {
+          "type": "question",
+          "text": "Called 'dreamy' or 'absent-minded'"
+        },
+        {
+          "type": "question",
+          "text": "Many projects started, none completed"
+        },
+        {
+          "type": "question",
+          "text": "Very enthusiastic at first but quickly disappointed or tired"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "II. Impulsivity",
+      "scale": ["Not at all", "A little", "Fairly", "Very much"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Excitability"
+        },
+        {
+          "type": "question",
+          "text": "Low frustration tolerance"
+        },
+        {
+          "type": "question",
+          "text": "Acts without thinking"
+        },
+        {
+          "type": "question",
+          "text": "Disorganized"
+        },
+        {
+          "type": "question",
+          "text": "Poor planning ability"
+        },
+        {
+          "type": "question",
+          "text": "Constantly switching from one activity to another"
+        },
+        {
+          "type": "question",
+          "text": "Dysfunctional in groups (where patience and waiting turns are required)"
+        },
+        {
+          "type": "question",
+          "text": "Needs supervision"
+        },
+        {
+          "type": "question",
+          "text": "Constantly reprimanded for forgetting or doing poorly"
+        },
+        {
+          "type": "question",
+          "text": "Frequently interrupts conversations; talks when it's not their turn"
+        }
+      ]
+    },
+    {
+      "type": "subtitle",
+      "content": "III. Activity Levels"
+    },
+    {
+      "type": "quizz",
+      "title": "III.A. Overactivity/Hyperactivity",
+      "scale": ["Not at all", "A little", "Fairly", "Very much"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Restless, perpetual fidgeting"
+        },
+        {
+          "type": "question",
+          "text": "Needs little sleep"
+        },
+        {
+          "type": "question",
+          "text": "Excessively talkative"
+        },
+        {
+          "type": "question",
+          "text": "Poor listening skills"
+        },
+        {
+          "type": "question",
+          "text": "Motor restlessness during sleep; scattered sheets, continuous movements"
+        },
+        {
+          "type": "question",
+          "text": "Dislikes situations requiring listening and staying quiet (church, lectures, etc.)"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "III.B. Under-activity",
+      "scale": ["Not at all", "A little", "Fairly", "Very much"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Lethargic"
+        },
+        {
+          "type": "question",
+          "text": "Daydreamer, absent-minded"
+        },
+        {
+          "type": "question",
+          "text": "Unable to complete tasks"
+        },
+        {
+          "type": "question",
+          "text": "Inattention, distraction"
+        },
+        {
+          "type": "question",
+          "text": "Lacks leadership, not resourceful"
+        },
+        {
+          "type": "question",
+          "text": "Difficulty fulfilling obligations"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "IV. Underachievement/Disorganization/Learning Difficulties",
+      "scale": ["Not at all", "A little", "Fairly", "Very much"],
+      "elements": [
+        {
+          "type": "question",
+          "text": "Poor achievements relative to capabilities"
+        },
+        {
+          "type": "question",
+          "text": "Frequent job changes"
+        },
+        {
+          "type": "question",
+          "text": "Lost items: keys, wallet, lists (grocery), personal belongings"
+        },
+        {
+          "type": "question",
+          "text": "Auditory memory problems (difficulty remembering names)"
+        },
+        {
+          "type": "question",
+          "text": "Learning difficulties"
+        },
+        {
+          "type": "question",
+          "text": "Illegible handwriting"
+        },
+        {
+          "type": "question",
+          "text": "Messy work and apartment"
+        },
+        {
+          "type": "question",
+          "text": "Professional obligations often completed hastily and unsatisfactorily"
+        },
+        {
+          "type": "question",
+          "text": "Rushed work"
+        },
+        {
+          "type": "question",
+          "text": "Works too slowly"
+        },
+        {
+          "type": "question",
+          "text": "Procrastination: unpaid bills or taxes, or submitted at the last minute"
+        }
+      ]
+    }
+  ]
+}

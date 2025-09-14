@@ -1,0 +1,183 @@
+{
+  "lang": "en",
+  "documentUrl": "QEP.pdf",
+  "id": "qep",
+  "name": "QEP",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Fear Evaluation Questionnaire"
+    },
+    {
+      "type": "quizz",
+      "title": "A) Phobic situations",
+      "scale": [
+        "I would not avoid",
+        "I would avoid very rarely",
+        "I would avoid rarely",
+        "I would avoid occasionally",
+        "I would avoid fairly often",
+        "I would avoid often",
+        "I would avoid very often",
+        "I would avoid almost always",
+        "I would avoid always"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "Please indicate how much you would avoid each of the following situations due to fear or other unpleasant feelings."
+        },
+        {
+          "type": "input",
+          "label": "The main phobia for which I want to be treated.\nDescribe this phobia in your own words."
+        },
+        {
+          "type": "question",
+          "text": "Rate this main phobia."
+        },
+        {
+          "type": "question",
+          "text": "Injections or minor surgical procedures"
+        },
+        {
+          "type": "question",
+          "text": "Eating or drinking with other people"
+        },
+        {
+          "type": "question",
+          "text": "Hospitals"
+        },
+        {
+          "type": "question",
+          "text": "Traveling alone by bus or train"
+        },
+        {
+          "type": "question",
+          "text": "Walking alone in busy streets"
+        },
+        {
+          "type": "question",
+          "text": "Being watched or stared at"
+        },
+        {
+          "type": "question",
+          "text": "Going into crowded shops"
+        },
+        {
+          "type": "question",
+          "text": "Talking to people in authority"
+        },
+        {
+          "type": "question",
+          "text": "Sight of blood"
+        },
+        {
+          "type": "question",
+          "text": "Being criticized"
+        },
+        {
+          "type": "question",
+          "text": "Going away from home alone"
+        },
+        {
+          "type": "question",
+          "text": "Thought of injury or illness"
+        },
+        {
+          "type": "question",
+          "text": "Speaking or acting to an audience"
+        },
+        {
+          "type": "question",
+          "text": "Large open spaces"
+        },
+        {
+          "type": "question",
+          "text": "Going to the dentist"
+        },
+        {
+          "type": "input",
+          "text": "Other situations:"
+        },
+        {
+          "type": "question",
+          "text": "Rate them"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "B) Emotional problems",
+      "scale": [
+        "Not troubling at all",
+        "Very slightly troubling",
+        "Slightly troubling",
+        "Quite passably troubling",
+        "Passably troubling",
+        "Troubling",
+        "Very troubling",
+        "Really very troubling",
+        "Extremely troubling"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "Indicate how much the problems below trouble or disturb you."
+        },
+        {
+          "type": "question",
+          "text": "Feeling miserable or depressed"
+        },
+        {
+          "type": "question",
+          "text": "Feeling irritable or aggressive"
+        },
+        {
+          "type": "question",
+          "text": "Feeling tense or panicky"
+        },
+        {
+          "type": "question",
+          "text": "Having unpleasant thoughts"
+        },
+        {
+          "type": "question",
+          "text": "Feeling strange, bizarre or that others are strange"
+        },
+        {
+          "type": "input",
+          "label": "Other feelings"
+        },
+        {
+          "type": "question",
+          "text": "Rate them"
+        }
+      ]
+    },
+    {
+      "type": "quizz",
+      "title": "C) Self-evaluation",
+      "scale": [
+        "No phobia present",
+        "Almost no phobia present",
+        "Slightly disturbing",
+        "Somewhat disturbing",
+        "Passably disturbing and disabling",
+        "Disturbing and disabling",
+        "Very disturbing and disabling",
+        "Really very disturbing and disabling",
+        "Extremely disturbing and disabling"
+      ],
+      "elements": [
+        {
+          "type": "paragraph",
+          "content": "How do you evaluate the current state of your phobic symptoms?"
+        },
+        {
+          "type": "question",
+          "text": "Current state of your phobic symptoms"
+        }
+      ]
+    }
+  ]
+}

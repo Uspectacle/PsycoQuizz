@@ -1,4 +1,5 @@
 import type { InputType } from "../../types/data";
+import { useTranslation } from "react-i18next";
 
 type Props = {
   element: InputType;
@@ -6,6 +7,7 @@ type Props = {
 };
 
 export default function InputElement({ element, onAnswer }: Props) {
+  const { t } = useTranslation();
   return (
     <div className="input-element">
       <label>{element.label}</label>
@@ -13,7 +15,7 @@ export default function InputElement({ element, onAnswer }: Props) {
         type="text"
         value={element.answer ?? ""}
         onChange={(e) => onAnswer(e.target.value)}
-        placeholder="Your answer here..."
+        placeholder={t("input.placeholder")}
       />
     </div>
   );

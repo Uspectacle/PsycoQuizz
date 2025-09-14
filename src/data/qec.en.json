@@ -1,0 +1,101 @@
+{
+  "lang": "en",
+  "documentUrl": "QEC.pdf",
+  "id": "qec",
+  "name": "QEC",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Cognitive Avoidance Questionnaire"
+    },
+    {
+      "type": "paragraph",
+      "content": "People react differently to certain types of thoughts.\nPlease indicate how much each of the following statements corresponds to your way of reacting to certain thoughts."
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "Not at all corresponding",
+        "A little corresponding",
+        "Fairly corresponding",
+        "Very corresponding",
+        "Totally corresponding"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "There are things I prefer not to think about."
+        },
+        {
+          "type": "question",
+          "text": "I avoid situations that make me pay attention to things I don't want to think about."
+        },
+        {
+          "type": "question",
+          "text": "I replace threatening mental images with internal dialogue."
+        },
+        {
+          "type": "question",
+          "text": "I think about things that concern me as if they were happening to someone else."
+        },
+        {
+          "type": "question",
+          "text": "I have thoughts that I try to avoid."
+        },
+        {
+          "type": "question",
+          "text": "I try not to think about the most disturbing aspects of certain situations to avoid being too afraid."
+        },
+        {
+          "type": "question",
+          "text": "I sometimes avoid objects that can trigger disturbing thoughts."
+        },
+        {
+          "type": "question",
+          "text": "I distract myself to avoid thinking about certain troubling subjects."
+        },
+        {
+          "type": "question",
+          "text": "I avoid people who make me think about things I don't want to think about."
+        },
+        {
+          "type": "question",
+          "text": "I often do things to distract myself from my thoughts."
+        },
+        {
+          "type": "question",
+          "text": "I think about useless details to avoid thinking about important subjects that worry me."
+        },
+        {
+          "type": "question",
+          "text": "Sometimes I immerse myself in an activity to avoid thinking about certain things."
+        },
+        {
+          "type": "question",
+          "text": "To avoid thinking about subjects that bother me, I force myself to think about something else."
+        },
+        {
+          "type": "question",
+          "text": "There are things I try not to think about."
+        },
+        {
+          "type": "question",
+          "text": "I maintain an internal dialogue to avoid seeing scenarios (a sequence of images) that frighten me."
+        },
+        {
+          "type": "question",
+          "text": "Sometimes I avoid places that make me think about things I would prefer not to think about."
+        },
+        {
+          "type": "question",
+          "text": "I think about past events to avoid thinking about insecure future events."
+        },
+        {
+          "type": "question",
+          "text": "I avoid taking actions that remind me of things I don't want to think about."
+        }
+      ]
+    }
+  ]
+}

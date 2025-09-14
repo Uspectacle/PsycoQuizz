@@ -1,0 +1,129 @@
+{
+  "lang": "en",
+  "documentUrl": "PSI-II.pdf",
+  "id": "psi",
+  "name": "PSI-II",
+  "elements": [
+    {
+      "type": "title",
+      "content": "Why Worry (version II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Below you will find a series of statements that may relate to worrying.\nThinking about times when you worry, please indicate how true the following statements are for you."
+    },
+    {
+      "type": "quizz",
+      "title": "",
+      "scale": [
+        "Not at all true",
+        "A little true",
+        "Somewhat true",
+        "Very true",
+        "Absolutely true"
+      ],
+      "elements": [
+        {
+          "type": "question",
+          "text": "If I did not worry, I would be careless and irresponsible."
+        },
+        {
+          "type": "question",
+          "text": "If I worry, I will be less shaken when unexpected events occur."
+        },
+        {
+          "type": "question",
+          "text": "I worry in order to know what to do."
+        },
+        {
+          "type": "question",
+          "text": "If I worry in advance, I will be less disappointed if something serious happens."
+        },
+        {
+          "type": "question",
+          "text": "Worrying helps me plan my actions to solve a problem."
+        },
+        {
+          "type": "question",
+          "text": "The mere fact of worrying can prevent misfortunes from happening."
+        },
+        {
+          "type": "question",
+          "text": "If I did not worry, it would make me a negligent person."
+        },
+        {
+          "type": "question",
+          "text": "It is by worrying that I end up undertaking the work I have to do."
+        },
+        {
+          "type": "question",
+          "text": "I worry because I think it can help me find a solution to my problem."
+        },
+        {
+          "type": "question",
+          "text": "The fact that I worry proves that I am a person who takes care of their affairs."
+        },
+        {
+          "type": "question",
+          "text": "Thinking too much about positive things can prevent them from happening."
+        },
+        {
+          "type": "question",
+          "text": "The fact that I worry confirms that I am a forward-thinking person."
+        },
+        {
+          "type": "question",
+          "text": "If a misfortune happens, I will feel less responsible if I worried about it beforehand."
+        },
+        {
+          "type": "question",
+          "text": "By worrying, I can find a better way to do things."
+        },
+        {
+          "type": "question",
+          "text": "Worry stimulates me and makes me more efficient."
+        },
+        {
+          "type": "question",
+          "text": "The fact that I worry motivates me to take action."
+        },
+        {
+          "type": "question",
+          "text": "The mere fact of worrying reduces the risk that something serious will happen."
+        },
+        {
+          "type": "question",
+          "text": "By worrying, I do certain things that I would not decide to do otherwise."
+        },
+        {
+          "type": "question",
+          "text": "The fact that I worry motivates me to do the things I need to do."
+        },
+        {
+          "type": "question",
+          "text": "My worries alone can reduce the risks of danger."
+        },
+        {
+          "type": "question",
+          "text": "By worrying, I increase my chances of finding the best solution."
+        },
+        {
+          "type": "question",
+          "text": "The fact that I worry will allow me to feel less guilty if something serious happens."
+        },
+        {
+          "type": "question",
+          "text": "If I worry, I will be less sad when a negative event occurs."
+        },
+        {
+          "type": "question",
+          "text": "By not worrying, one can attract misfortunes."
+        },
+        {
+          "type": "question",
+          "text": "The fact that I worry shows that I am a good person."
+        }
+      ]
+    }
+  ]
+}
