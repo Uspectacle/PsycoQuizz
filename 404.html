@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="/psyduck.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PsycoQuizz</title>
-    <script type="text/javascript">
-      // Save the path so index.html can restore it
-      sessionStorage.redirect =
-        window.location.pathname +
-        window.location.search +
-        window.location.hash;
-      // Redirect to root of the SPA
-      window.location.replace("/psyco-quizz/");
-    </script>
   </head>
   <body>
-    <p>Redirecting…</p>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

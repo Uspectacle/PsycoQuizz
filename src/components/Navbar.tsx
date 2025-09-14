@@ -13,7 +13,7 @@ export default function Navbar({ tests, onToggleDark }: Props) {
 
   const goToTest = (id: string) => {
     if (id) {
-      navigate(`/${id}`);
+      navigate(`/#/${id}`);
     }
   };
 

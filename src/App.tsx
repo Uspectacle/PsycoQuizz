@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { useLocalStorage } from "./hooks/useLocalStorage";
@@ -35,7 +35,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useLocalStorage<boolean>("darkMode", false);
 
   return (
-    <BrowserRouter basename="/psyco-quizz">
+    <HashRouter>
       <div className={`app ${darkMode ? "dark" : ""}`}>
         <Navbar
           tests={TESTS_DATA}
@@ -61,6 +61,6 @@ export default function App() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
