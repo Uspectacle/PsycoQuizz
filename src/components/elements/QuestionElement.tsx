@@ -27,6 +27,11 @@ export default function QuestionElement({ element, scale, onAnswer }: Props) {
               onAnswer(parseInt((e.target as HTMLInputElement).value));
             }
           }}
+          onTouchStart={() => {
+            if (document.activeElement instanceof HTMLElement) {
+              document.activeElement.blur();
+            }
+          }}
           onTouchEnd={(e) => {
             if (element.answer === undefined) {
               onAnswer(parseInt((e.target as HTMLInputElement).value));
