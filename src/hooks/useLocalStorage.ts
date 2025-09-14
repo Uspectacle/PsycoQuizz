@@ -7,18 +7,6 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
       const item = window.localStorage.getItem(key);
       if (item) {
         const parsed = JSON.parse(item);
-        // Handle Date objects
-        if (parsed && typeof parsed === "object") {
-          Object.keys(parsed).forEach((key) => {
-            if (
-              parsed[key] &&
-              typeof parsed[key] === "string" &&
-              parsed[key].match(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/)
-            ) {
-              parsed[key] = new Date(parsed[key]);
-            }
-          });
-        }
         return parsed as T;
       }
       return initialValue;

@@ -20,7 +20,7 @@ export async function exportTestData(
   format: ExportFormat,
   t: TFunction
 ): Promise<void> {
-  const filename = `${data.id}_${formatDate(data.date, t)}`;
+  const filename = `${data.id}_${getDate(data.lang).replaceAll("/", "_")}`;
 
   switch (format) {
     case "pdf":
@@ -35,12 +35,8 @@ export async function exportTestData(
   }
 }
 
-/**
- * Format date as YYYY-MM-DD
- */
-function formatDate(date: Date | undefined, t: TFunction): string {
-  if (!date) return t("export.no_date");
-  return new Date(date).toISOString().split("T")[0];
+function getDate(lang: "en" | "fr"): string {
+  return new Date().toLocaleDateString(lang);
 }
 
 /**
@@ -79,10 +75,10 @@ function computeQuizzResult(quizz: QuizzType, t: TFunction) {
  * Convert TestData to Markdown
  */
 function generateMarkdown(data: TestData, t: TFunction): string {
-  let md = `# ${data.name}\n\n`;
+  let md = `# ${data.name}\n\n**${t("export.date_label")}** ${getDate(
+    data.lang
+  )}\n\n`;
 
-  if (data.date)
-    md += `**${t("export.date_label")}** ${formatDate(data.date, t)}\n\n`;
   if (data.additionalText) md += `${data.additionalText}\n\n`;
 
   data.elements.forEach((element: TestType) => {
@@ -209,7 +205,8 @@ function exportTXT(data: TestData, t: TFunction): void {
   const lines: string[] = [];
 
   lines.push(data.name);
-  if (data.date) lines.push(`Date: ${formatDate(data.date, t)}`);
+  lines.push(`${t("export.date_label")}} ${getDate(data.lang)}`);
+
   if (data.additionalText) lines.push(data.additionalText);
   lines.push("");
 

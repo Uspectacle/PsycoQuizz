@@ -1,3 +1,4 @@
+import { useId } from "react";
 import type { QuestionType } from "../../types/data";
 
 type Props = {
@@ -7,11 +8,14 @@ type Props = {
 };
 
 export default function QuestionElement({ element, scale, onAnswer }: Props) {
+  const inputId = useId();
+
   return (
     <div className="question-element">
-      <label>{element.text}</label>
+      <label htmlFor={inputId}>{element.text}</label>
       <div className="scale-wrapper">
         <input
+          id={inputId}
           type="range"
           min={0}
           max={scale.length - 1}

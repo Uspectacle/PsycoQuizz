@@ -2,21 +2,21 @@ import type { TestData } from "../types/data";
 import type { ExportFormat } from "../helpers/exportData";
 import { useTranslation } from "react-i18next";
 import { exportTestData } from "../helpers/exportData";
+import { useId } from "react";
 
 type Props = {
   test: TestData;
-  onDateChange: (date: Date) => void;
   onAdditionalTextChange: (text: string) => void;
   onClear: () => void;
 };
 
 export default function ActionBar({
   test,
-  onDateChange,
   onAdditionalTextChange,
   onClear,
 }: Props) {
   const { t } = useTranslation();
+  const inputId = useId();
 
   const handleExport = (format: ExportFormat) => {
     exportTestData(test, format, t);
@@ -35,21 +35,10 @@ export default function ActionBar({
 
   return (
     <div className="action-bar">
-      <div className="date-input">
-        <label>{t("actions.date")}:</label>
-        <input
-          type="date"
-          value={
-            test.date
-              ? new Date(test.date).toISOString().split("T")[0]
-              : undefined
-          }
-          onChange={(e) => onDateChange(new Date(e.target.value))}
-        />
-      </div>
       <div className="additional-text">
-        <label>{t("actions.additionalNotes")}:</label>
+        <label htmlFor={inputId}>{t("actions.additionalNotes")}:</label>
         <textarea
+          id={inputId}
           value={test.additionalText ?? ""}
           onChange={(e) => onAdditionalTextChange(e.target.value)}
           placeholder={t("actions.notesPlaceholder")}

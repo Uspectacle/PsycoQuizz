@@ -79,10 +79,6 @@ export default function TestContainer({ test: initialTest }: Props) {
     });
   };
 
-  const handleDateChange = (date: Date) => {
-    setTest((prev: TestData) => ({ ...prev, date }));
-  };
-
   const handleAdditionalTextChange = (additionalText: string) => {
     setTest((prev: TestData) => ({ ...prev, additionalText }));
   };
@@ -137,7 +133,6 @@ export default function TestContainer({ test: initialTest }: Props) {
       </p>
       <ActionBar
         test={test}
-        onDateChange={handleDateChange}
         onAdditionalTextChange={handleAdditionalTextChange}
         onClear={handleClear}
       />

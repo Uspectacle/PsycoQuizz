@@ -48,13 +48,11 @@
     "exportPdf": "Exporter les réponses en PDF",
     "exportCsv": "Exporter les réponses en CSV",
     "exportText": "Copier les réponses en texte",
-    "date": "Date",
     "additionalNotes": "Notes additionnelles",
     "notesPlaceholder": "Ajoutez des notes supplémentaires ici, comme votre nom"
   },
   "export": {
     "missing_answers": "{{count}} réponses manquantes",
-    "no_date": "pas de date",
     "date_label": "Date:",
     "score_label": "Score:",
     "score_format": "{{score}} / {{max}} ({{percent}}%)",

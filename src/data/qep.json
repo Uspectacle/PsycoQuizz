@@ -97,7 +97,7 @@
         },
         {
           "type": "input",
-          "text": "Autres situations:"
+          "label": "Autres situations:"
         },
         {
           "type": "question",

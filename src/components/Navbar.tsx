@@ -16,7 +16,6 @@ export default function Navbar({ tests, onToggleDark }: Props) {
   const toggleLanguage = () => {
     const nextLang = i18n.language === "fr" ? "en" : "fr";
     i18n.changeLanguage(nextLang);
-    console.log(i18n);
   };
 
   const goToTest = (id: string) => {

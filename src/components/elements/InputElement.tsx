@@ -1,3 +1,4 @@
+import { useId } from "react";
 import type { InputType } from "../../types/data";
 import { useTranslation } from "react-i18next";
 
@@ -8,10 +9,13 @@ type Props = {
 
 export default function InputElement({ element, onAnswer }: Props) {
   const { t } = useTranslation();
+  const inputId = useId();
+
   return (
     <div className="input-element">
-      <label>{element.label}</label>
+      <label htmlFor={inputId}>{element.label}</label>
       <input
+        id={inputId}
         type="text"
         value={element.answer ?? ""}
         onChange={(e) => onAnswer(e.target.value)}

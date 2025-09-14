@@ -140,21 +140,18 @@
   color: var(--text-color);
 }
 
-.date-input,
 .additional-text {
   margin: 10px 0;
   display: flex;
   flex-direction: column;
 }
 
-.date-input label,
 .additional-text label {
   display: block;
   margin-bottom: 5px;
   color: var(--text-color);
 }
 
-.date-input input,
 .additional-text textarea {
   padding: 8px;
   border: 1px solid var(--primary-color);

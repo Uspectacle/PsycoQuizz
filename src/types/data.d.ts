@@ -51,6 +51,5 @@ export type TestData = {
   id: string;
   name: string;
   elements: TestType[];
-  date?: Date;
   additionalText?: string;
 };
