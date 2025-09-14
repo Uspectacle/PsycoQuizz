@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PsycoQuizz</title>
+    <script type="text/javascript">
+      // Save the path so index.html can restore it
+      sessionStorage.redirect =
+        window.location.pathname +
+        window.location.search +
+        window.location.hash;
+      // Redirect to root of the SPA
+      window.location.replace("/psyco-quizz/");
+    </script>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>
