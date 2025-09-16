@@ -1,6 +1,7 @@
 {
   "common": {
-    "disclaimer": "Ce test ne constitue pas un diagnostic médical. Consultez un professionnel de santé pour une évaluation complète."
+    "disclaimer": "Ce test ne constitue pas un diagnostic médical.\nConsultez un professionnel de santé pour une évaluation complète.",
+    "additional_info": "Notes additionnelles"
   },
   "footer": {
     "githubIssue": "Une erreur? Une demande? Contacter l'administrateur",
@@ -34,6 +35,13 @@
     "flag": "fi-gb"
   },
   "actions": {
+    "yourAnswers": "Sauvegardez vos réponses",
+    "copy": "Copier",
+    "copied": "Copié",
+    "exportPdfFull": "Télécharger le PDF complet",
+    "exportJson": "Télécharger le JSON",
+    "fullReport": "Rapport complet",
+    "resultOnly": "Résultats seuls",
     "start": "Commencer",
     "next": "Suivant",
     "previous": "Précédent",

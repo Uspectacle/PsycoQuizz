@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+.disclaimer {
+  text-align: center;
+}
+
 .title-element {
   margin-bottom: 20px;
   color: var(--text-color);
@@ -107,6 +111,11 @@
 
 .action-bar {
   margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .quizz-result {
@@ -144,6 +153,7 @@
   margin: 10px 0;
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 .additional-text label {
@@ -156,8 +166,10 @@
   padding: 8px;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
-  background: var(--secondary-color);
   color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  background: var(--bg-color);
+  font-family: inherit;
 }
 
 .additional-text textarea {
@@ -165,13 +177,16 @@
   resize: vertical;
 }
 
-.action-bar-buttons {
+.button-group {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
-  margin: 20px 0 0 0;
-  align-items: center;
   justify-content: center;
+  width: 100%;
+}
+
+.button-group button {
+  flex: 1;
+  max-width: 200px;
 }
 
 button {
@@ -181,11 +196,17 @@ button {
   background: var(--primary-color);
   color: white;
   cursor: pointer;
-  transition: opacity 0.2s;
+  transition: color 0.2s, background 0.2s;
 }
 
 button:hover {
-  opacity: 0.9;
+  background: var(--hover-color);
+  color: var(--primary-color);
+}
+
+button:active {
+  background: var(--focus-color);
+  color: var(--primary-color);
 }
 
 button.danger {

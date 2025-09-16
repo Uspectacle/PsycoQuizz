@@ -126,8 +126,17 @@ export default function TestContainer({ test: initialTest }: Props) {
 
   return (
     <div className="test-container">
+      <a
+        href={"documents/" + test.documentUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button>
+          <i className="fa-solid fa-file-pdf"></i> {t("actions.originalDoc")}
+        </button>
+      </a>
       <div className="test-content">{test.elements.map(renderElement)}</div>
-      <p className="test-content text-danger">
+      <p className="disclaimer text-danger">
         <i className="fa-solid fa-triangle-exclamation text-danger"></i>{" "}
         {t("common.disclaimer")}
       </p>

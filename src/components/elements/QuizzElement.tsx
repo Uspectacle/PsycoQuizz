@@ -56,7 +56,7 @@ export default function QuizzElement({
 
   return (
     <div className="quizz-element">
-      <h3>{element.title}</h3>
+      {!!element.title && <h3>{element.title}</h3>}
       {element.elements.map((qElement, index) => {
         switch (qElement.type) {
           case "title":

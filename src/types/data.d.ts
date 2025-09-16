@@ -37,7 +37,7 @@ export type Scoring = {
 
 export type QuizzType = {
   type: "quizz";
-  title: string;
+  title?: string;
   scale: Scale;
   scoring?: Scoring[];
   elements: (TextType | QuestionType)[];

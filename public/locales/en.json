@@ -1,15 +1,16 @@
 {
   "common": {
-    "disclaimer": "This test does not constitute a medical diagnosis. Consult a healthcare professional for a complete evaluation."
+    "disclaimer": "This test does not constitute a medical diagnosis.\nConsult a healthcare professional for a full evaluation.",
+    "additional_info": "Additional notes"
   },
   "footer": {
-    "githubIssue": "An error? A request? Contact the admin",
+    "githubIssue": "An error? A request? Contact the administrator",
     "githubLink": "View on GitHub",
     "license": "GNU GPL v3 License"
   },
   "quizz": {
     "progress": "Progress: {{answered}} / {{total}} questions answered",
-    "jumpToUnanswered": "Jump to unanswered question"
+    "jumpToUnanswered": "Go to unanswered question"
   },
   "result": {
     "score": "Score: {{score}} / {{max}} ({{percentage}}%)"
@@ -18,8 +19,8 @@
     "placeholder": "Your answer here..."
   },
   "theme": {
-    "light": "Light Mode",
-    "dark": "Dark Mode",
+    "light": "Light mode",
+    "dark": "Dark mode",
     "toggle": "Toggle theme"
   },
   "language": {
@@ -34,6 +35,13 @@
     "flag": "fi-fr"
   },
   "actions": {
+    "yourAnswers": "Save your answers",
+    "copy": "Copy",
+    "copied": "Copied",
+    "exportPdfFull": "Download full PDF",
+    "exportJson": "Download JSON",
+    "fullReport": "Full report",
+    "resultOnly": "Results only",
     "start": "Start",
     "next": "Next",
     "previous": "Previous",
@@ -44,16 +52,15 @@
     "clearConfirm": "Are you sure you want to clear all answers?",
     "copyLink": "Copy link",
     "linkCopied": "Page link copied to clipboard",
-    "originalDoc": "Original Test Document",
-    "exportPdf": "Export Answers as PDF",
-    "exportCsv": "Export Answers as CSV",
-    "exportText": "Copy Answers as Text",
-    "additionalNotes": "Additional Notes",
-    "notesPlaceholder": "Add any additional notes here, like your name"
+    "originalDoc": "Original test document",
+    "exportPdf": "Export answers to PDF",
+    "exportCsv": "Export answers to CSV",
+    "exportText": "Copy answers as text",
+    "additionalNotes": "Additional notes",
+    "notesPlaceholder": "Add extra notes here, such as your name"
   },
   "export": {
-    "missing_answers": "{{count}} missing answers",
-    "missing_answers_one": "1 missing answer",
+    "missing_answers": "{{count}} answers missing",
     "date_label": "Date:",
     "score_label": "Score:",
     "score_format": "{{score}} / {{max}} ({{percent}}%)",
